@@ -1,0 +1,14 @@
+{
+    "type": "code",
+    "modid": "animaltransport",
+    "name": "Animal Transport",
+    "authors": [
+        "VICCS"
+    ],
+    "description": "Allows players to capture and transport small animals in a basket.",
+    "version": "1.0.2",
+    "side": "server",
+    "dependencies": {
+        "game": "*"
+    }
+}

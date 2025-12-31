@@ -1,0 +1,191 @@
+using System;
+using System.Collections.Generic;
+using Vintagestory.API.Common;
+using Vintagestory.API.Server;
+using Vintagestory.API.Config;
+
+namespace SimpleTPA
+{
+    // Estrutura leve para guardar o pedido
+    public class TeleportRequest
+    {
+        public string RequesterUid { get; set; } = "";
+        public string RequesterName { get; set; } = "";
+        public long ExpiryTime { get; set; } // Momento exato que expira
+    }
+
+    public class TpaSystem : ModSystem
+    {
+        private ICoreServerAPI? sapi;
+        
+        // Chave: UID do Destinatário (Quem recebe o pedido)
+        // Valor: Dados do Pedido
+        private Dictionary<string, TeleportRequest> pendingRequests = new Dictionary<string, TeleportRequest>();
+
+        private const int TimeoutSeconds = 10;
+
+        public override bool ShouldLoad(EnumAppSide forSide) => forSide == EnumAppSide.Server;
+
+        public override void StartServerSide(ICoreServerAPI api)
+        {
+            sapi = api;
+            var parsers = api.ChatCommands.Parsers;
+
+            // COMANDO: /tpa [player]
+            api.ChatCommands.Create("tpa")
+                .WithDescription("Pede para teleportar até um jogador")
+                .RequiresPrivilege(Privilege.chat)
+                .WithArgs(parsers.Word("jogador_alvo"))
+                .HandleWith(OnTpaRequest);
+
+            // COMANDO: /tpaccept
+            api.ChatCommands.Create("tpaccept")
+                .WithDescription("Aceita o pedido de teleporte")
+                .RequiresPrivilege(Privilege.chat)
+                .HandleWith(OnTpAccept);
+
+            // COMANDO: /tpdeny
+            api.ChatCommands.Create("tpdeny")
+                .WithDescription("Recusa o pedido de teleporte")
+                .RequiresPrivilege(Privilege.chat)
+                .HandleWith(OnTpDeny);
+
+            // GARBAGE COLLECTOR: Roda a cada 1 segundo para limpar expirados
+            api.Event.RegisterGameTickListener(OnCleanupTick, 1000);
+        }
+
+        // --- LÓGICA DO TPA ---
+
+        private TextCommandResult OnTpaRequest(TextCommandCallingArgs args)
+        {
+            IServerPlayer? requester = args.Caller.Player as IServerPlayer;
+            string targetName = (string)args[0];
+
+            // Busca o alvo (match parcial de nome funciona)
+            IPlayer? targetPlayer = sapi?.World.PlayerByUid(sapi.PlayerData.GetPlayerDataByLastKnownName(targetName)?.PlayerUID ?? "");
+            
+            // Se não achou pelo histórico, tenta buscar online direto
+            if (targetPlayer == null) 
+            {
+                // Busca manual na lista de online
+                foreach(var p in sapi!.World.AllOnlinePlayers) 
+                {
+                    if (p.PlayerName.ToLower().Contains(targetName.ToLower())) 
+                    {
+                        targetPlayer = p;
+                        break;
+                    }
+                }
+            }
+
+            // Validações
+            if (targetPlayer == null || targetPlayer.WorldData.CurrentGameMode == EnumGameMode.Spectator)
+                return TextCommandResult.Error("Jogador não encontrado ou offline.");
+
+            if (targetPlayer.PlayerUID == requester?.PlayerUID)
+                return TextCommandResult.Error("Você não pode dar TP em si mesmo.");
+
+            // Cria o pedido
+            var request = new TeleportRequest
+            {
+                RequesterUid = requester!.PlayerUID,
+                RequesterName = requester.PlayerName,
+                ExpiryTime = sapi.World.ElapsedMilliseconds + (TimeoutSeconds * 1000)
+            };
+
+            // Salva no dicionário (sobrescreve se já tiver um)
+            pendingRequests[targetPlayer.PlayerUID] = request;
+
+            // MENSAGEM PARA O SOLICITANTE
+            requester.SendMessage(GlobalConstants.GeneralChatGroup, 
+                $"Pedido enviado para {targetPlayer.PlayerName}. Expira em {TimeoutSeconds}s.", EnumChatType.Notification);
+
+            // MENSAGEM PARA O ALVO (Com Link Clicável)
+            string msg = $"<strong>{requester.PlayerName}</strong> quer teleportar até você.\n" +
+                         $"Digite <strong>/tpaccept</strong> ou clique aqui: <a href=\"chat://tpaccept\"><strong>[ACEITAR]</strong></a>";
+            
+            (targetPlayer as IServerPlayer)?.SendMessage(GlobalConstants.GeneralChatGroup, msg, EnumChatType.Notification);
+
+            return TextCommandResult.Success("");
+        }
+
+        private TextCommandResult OnTpAccept(TextCommandCallingArgs args)
+        {
+            IServerPlayer? target = args.Caller.Player as IServerPlayer;
+            
+            if (!pendingRequests.ContainsKey(target!.PlayerUID))
+                return TextCommandResult.Error("Nenhum pedido pendente.");
+
+            var request = pendingRequests[target.PlayerUID];
+
+            // Verifica se o solicitante ainda está online
+            IServerPlayer? requester = sapi?.World.PlayerByUid(request.RequesterUid) as IServerPlayer;
+
+            if (requester == null)
+            {
+                pendingRequests.Remove(target.PlayerUID);
+                return TextCommandResult.Error("O jogador saiu do servidor.");
+            }
+
+            // EXECUTAR TELEPORTE
+            requester.Entity.TeleportTo(target.Entity.Pos);
+
+            // Avisos
+            requester.SendMessage(GlobalConstants.GeneralChatGroup, "Teleporte aceito!", EnumChatType.Notification);
+            target.SendMessage(GlobalConstants.GeneralChatGroup, "Você aceitou o pedido.", EnumChatType.Notification);
+
+            // Limpa o pedido
+            pendingRequests.Remove(target.PlayerUID);
+
+            return TextCommandResult.Success("");
+        }
+
+        private TextCommandResult OnTpDeny(TextCommandCallingArgs args)
+        {
+            IServerPlayer? target = args.Caller.Player as IServerPlayer;
+
+            if (pendingRequests.ContainsKey(target!.PlayerUID))
+            {
+                var request = pendingRequests[target.PlayerUID];
+                IServerPlayer? requester = sapi?.World.PlayerByUid(request.RequesterUid) as IServerPlayer;
+                
+                // CORREÇÃO AQUI TAMBÉM: Notification ou CommandError
+                requester?.SendMessage(GlobalConstants.GeneralChatGroup, "Seu pedido de teleporte foi recusado.", EnumChatType.CommandError);
+                
+                pendingRequests.Remove(target.PlayerUID);
+                return TextCommandResult.Success("Pedido recusado.");
+            }
+
+            return TextCommandResult.Error("Nenhum pedido para recusar.");
+        }
+
+        // LIMPEZA AUTOMÁTICA
+        private void OnCleanupTick(float dt)
+        {
+            if (sapi == null) return;
+            long now = sapi.World.ElapsedMilliseconds;
+            
+            List<string> toRemove = new List<string>();
+
+            foreach (var kvp in pendingRequests)
+            {
+                if (now > kvp.Value.ExpiryTime)
+                {
+                    toRemove.Add(kvp.Key);
+                    
+                    IServerPlayer? target = sapi.World.PlayerByUid(kvp.Key) as IServerPlayer;
+                    
+                    // --- CORREÇÃO DO ERRO AQUI ---
+                    // Mudado de OwnLog para Notification
+                    target?.SendMessage(GlobalConstants.GeneralChatGroup, 
+                        $"O pedido de TP de {kvp.Value.RequesterName} expirou.", EnumChatType.Notification);
+                }
+            }
+
+            foreach (var uid in toRemove)
+            {
+                pendingRequests.Remove(uid);
+            }
+        }
+    }
+}

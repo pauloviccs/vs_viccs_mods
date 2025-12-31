@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "lazymagnet",
+  "name": "Lazy Magnet",
+  "authors": ["VICCS"],
+  "description": "Atrai itens dropados para o jogador.",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "1.21.5"
+  },
+  "requiredOnClient": false,
+  "requiredOnServer": true
+}

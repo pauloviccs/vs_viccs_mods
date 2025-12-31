@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "simplewaypoints",
+  "name": "Simple Waypoints",
+  "authors": ["VICCS"],
+  "description": "Waypoints pessoal com custo de fome.",
+  "version": "0.0.1",
+  "dependencies": {
+    "game": "1.21.5"
+  },
+  "requiredOnClient": false,
+  "requiredOnServer": true
+}

@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "sleepvotesystem",
+  "name": "Democracia do Sono",
+  "authors": ["VICCS"],
+  "description": "Sistema de votacao para pular a noite via chat (/voteday) ou dormindo.",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "*"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "gravemod",
+  "name": "O Coveiro Automatico",
+  "authors": ["VICCS"],
+  "description": "Cria um bau protegido por 15 minutos com seus itens ao morrer.",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "*"
+  }
+}

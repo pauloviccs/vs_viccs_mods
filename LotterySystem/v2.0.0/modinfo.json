@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "lotterymod",
+  "name": "A Casa de Apostas",
+  "authors": ["VICCS"],
+  "description": "Transforme itens inuteis em premios aleatorios com /apostar",
+  "version": "2.0.0",
+  "side": "server",
+  "dependencies": {
+    "game": "*"
+  }
+}

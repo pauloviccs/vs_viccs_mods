@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "passiveforest",
+  "name": "Passive Forest",
+  "authors": ["VICCS"],
+  "description": "Mudas de árvores se plantam sozinhas ao despawnar.",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "1.21.5"
+  },
+  "requiredOnClient": false,
+  "requiredOnServer": true
+}

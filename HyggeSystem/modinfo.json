@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "hygge",
+  "name": "Hygge - Conforto na Fogueira",
+  "authors": ["VICCS"],
+  "description": "Regeneracao e buffs ao descansar perto de fogueiras.",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "*"
+  }
+}

@@ -1,0 +1,5 @@
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Debug\net8.0\AnimalTransport.csproj.AssemblyReference.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Debug\net8.0\AnimalTransport.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Debug\net8.0\AnimalTransport.AssemblyInfoInputs.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Debug\net8.0\AnimalTransport.AssemblyInfo.cs
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Debug\net8.0\AnimalTransport.csproj.CoreCompileInputs.cache

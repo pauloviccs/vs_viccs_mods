@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "simpleorganizer",
+  "name": "Arruma Baús",
+  "authors": ["VICCS"],
+  "description": "Organizador de containers manual. Use /organizar.",
+  "version": "2.0.0",
+  "side": "server",
+  "dependencies": {
+    "game": "*"
+  }
+}

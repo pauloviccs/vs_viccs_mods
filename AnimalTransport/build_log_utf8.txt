@@ -1,0 +1,12 @@
+﻿  Determinando os projetos a serem restaurados...
+  Todos os projetos est├úo atualizados para restaura├º├úo.
+  Considere app.config como remapeamento do assembly "netstandard, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" da Vers├úo "2.0.0.0" [] para a Vers├úo "2.1.0.0" [C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Ref\8.0.22\ref\net8.0\netstandard.dll] para solucionar o conflito e obter libera├º├úo de aviso.
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\src\Patches\EntityInteractPatch.cs(12,91): error CS0246: O nome do tipo ou do namespace "Vec3d" n├úo pode ser encontrado (est├í faltando uma diretiva using ou uma refer├¬ncia de assembly?) [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\AnimalTransport.csproj]
+
+FALHA da compila├º├úo.
+
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\src\Patches\EntityInteractPatch.cs(12,91): error CS0246: O nome do tipo ou do namespace "Vec3d" n├úo pode ser encontrado (est├í faltando uma diretiva using ou uma refer├¬ncia de assembly?) [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\AnimalTransport.csproj]
+    0 Aviso(s)
+    1 Erro(s)
+
+Tempo Decorrido 00:00:00.73

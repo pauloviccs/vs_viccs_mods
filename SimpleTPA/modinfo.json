@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "simpletpa",
+  "name": "Simple TPA",
+  "authors": ["VICCS"],
+  "description": "Sistema de teleporte seguro com aceitação.",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "1.21.5"
+  },
+  "requiredOnClient": false,
+  "requiredOnServer": true
+}

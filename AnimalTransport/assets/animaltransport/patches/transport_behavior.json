@@ -1,0 +1,28 @@
+[
+    {
+        "file": "game:itemtypes/block/basket",
+        "op": "add",
+        "path": "/behaviors/-",
+        "value": {
+            "name": "AnimalTransport.CollectibleBehaviorEntityCatch"
+        },
+        "condition": {
+            "when": "startwith",
+            "use": "code",
+            "value": "basket"
+        }
+    },
+    {
+        "file": "game:itemtypes/block/chest",
+        "op": "add",
+        "path": "/behaviors/-",
+        "value": {
+            "name": "AnimalTransport.CollectibleBehaviorEntityCatch"
+        },
+        "condition": {
+            "when": "startwith",
+            "use": "code",
+            "value": "chest"
+        }
+    }
+]

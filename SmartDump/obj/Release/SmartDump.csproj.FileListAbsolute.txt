@@ -1,0 +1,13 @@
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\SmartDump\bin\Release\modinfo.json
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\SmartDump\bin\Release\SmartDump.deps.json
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\SmartDump\bin\Release\SmartDump.dll
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\SmartDump\bin\Release\SmartDump.pdb
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\SmartDump\obj\Release\SmartDump.csproj.AssemblyReference.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\SmartDump\obj\Release\SmartDump.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\SmartDump\obj\Release\SmartDump.AssemblyInfoInputs.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\SmartDump\obj\Release\SmartDump.AssemblyInfo.cs
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\SmartDump\obj\Release\SmartDump.csproj.CoreCompileInputs.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\SmartDump\obj\Release\SmartDump.dll
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\SmartDump\obj\Release\refint\SmartDump.dll
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\SmartDump\obj\Release\SmartDump.pdb
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\SmartDump\obj\Release\ref\SmartDump.dll

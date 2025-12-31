@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "infinitehands",
+  "name": "Infinite Hands (Auto-Refill)",
+  "authors": ["VICCS"],
+  "description": "Recarrega automaticamente o bloco na mão do jogador ao acabar.",
+  "version": "1.0.0",
+  "side": "server",
+  "dependencies": {
+    "game": "*"
+  }
+}

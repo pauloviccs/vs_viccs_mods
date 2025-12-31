@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "smartdump",
+  "name": "Smart Dump (Despejo Inteligente)",
+  "authors": ["VICCS"],
+  "description": "Comando /dump para guardar itens em baus proximos automaticamente.",
+  "version": "1.0.0",
+  "side": "server",
+  "dependencies": {
+    "game": "*"
+  }
+}
