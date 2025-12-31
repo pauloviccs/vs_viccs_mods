@@ -11,9 +11,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnimalTransport")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7aa3a6ad7755787867a3d33517e8951fbeff2813")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnimalTransport")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnimalTransport")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

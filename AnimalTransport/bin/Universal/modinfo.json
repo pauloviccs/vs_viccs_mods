@@ -6,8 +6,8 @@
         "VICCS"
     ],
     "version": "1.0.3",
-    "description": "Permite capturar animais (Server-Side Only).",
-    "side": "server",
+    "description": "Permite capturar e transportar pequenos animais em cestas e baús.",
+    "side": "universal",
     "dependencies": {
         "game": "*"
     }
