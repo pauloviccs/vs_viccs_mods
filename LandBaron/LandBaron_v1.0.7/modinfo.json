@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "landbaron",
+  "name": "Land Baron - Protecao de Terras",
+  "authors": ["VICCS"],
+  "description": "Protecao de chunks e sistema bancario fisico.",
+  "version": "1.0.0",
+  "dependencies": {
+    "game": "*"
+  }
+}

@@ -1,31 +1,29 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <OutputPath>bin\Release\</OutputPath>
-    <Nullable>disable</Nullable>
-  </PropertyGroup>
-
-  <PropertyGroup>
-    <VSPath>C:\Games\Vintagestory</VSPath>
+    <OutputPath>bin\$(Configuration)\Mods\AnimalTransport</OutputPath>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
   </PropertyGroup>
 
   <ItemGroup>
     <Reference Include="VintagestoryAPI">
-      <HintPath>$(VSPath)\VintagestoryAPI.dll</HintPath>
-      <Private>false</Private>
+      <HintPath>lib\VintagestoryAPI.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="VintagestoryLib">
-      <HintPath>$(VSPath)\VintagestoryLib.dll</HintPath>
-      <Private>false</Private>
+      <HintPath>lib\VintagestoryLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>lib\0Harmony.dll</HintPath>
+      <Private>False</Private>
     </Reference>
   </ItemGroup>
-
   <ItemGroup>
     <None Include="modinfo.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
-
 </Project>

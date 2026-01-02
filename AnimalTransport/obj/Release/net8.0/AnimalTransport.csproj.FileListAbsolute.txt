@@ -1,0 +1,13 @@
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\net8.0\AnimalTransport.csproj.AssemblyReference.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\net8.0\AnimalTransport.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\net8.0\AnimalTransport.AssemblyInfoInputs.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\net8.0\AnimalTransport.AssemblyInfo.cs
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\net8.0\AnimalTransport.csproj.CoreCompileInputs.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\bin\Release\Mods\AnimalTransport\net8.0\modinfo.json
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\bin\Release\Mods\AnimalTransport\net8.0\AnimalTransport.deps.json
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\bin\Release\Mods\AnimalTransport\net8.0\AnimalTransport.dll
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\bin\Release\Mods\AnimalTransport\net8.0\AnimalTransport.pdb
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\net8.0\AnimalTransport.dll
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\net8.0\refint\AnimalTransport.dll
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\net8.0\AnimalTransport.pdb
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\net8.0\ref\AnimalTransport.dll

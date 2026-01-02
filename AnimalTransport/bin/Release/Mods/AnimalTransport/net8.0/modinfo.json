@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "animaltransport",
+  "name": "Animal Transport",
+  "authors": ["VICCS"],
+  "description": "Capture small animals in baskets using Sneak+RightClick.",
+  "version": "1.0.4",
+  "side": "server",
+  "dependencies": {
+    "game": "*" 
+  }
+}

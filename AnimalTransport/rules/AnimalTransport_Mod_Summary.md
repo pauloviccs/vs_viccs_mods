@@ -12,9 +12,8 @@ O objetivo é permitir que jogadores capturem e transportem animais de pequeno p
 
 ### Captura
 *   **Input:** Clique Direito (Interagir) com o Item na mão apontando para a entidade.
-*   **Itens Válidos:** `Reed Basket` (Cesta de Junco), `Reed Chest` (Baú de Junco).
+*   **Itens Válidos:** (Qualquer cesta ou baú).
 *   **Restrições:**
-    *   Tamanho da Entidade: Caixa de seleção < 1.1 blocos (X/Y/Z).
     *   Estado: O item deve estar vazio (sem animal capturado).
 *   **Feedback:**
     *   Som: `game:sounds/effect/squish1`
@@ -26,7 +25,7 @@ O objetivo é permitir que jogadores capturem e transportem animais de pequeno p
 *   Dados preservados: Saúde, Nome (se houver), Atributos genéricos.
 
 ### Liberação
-*   **Input:** Clique Direito (Interagir) no chão (BlockSelection).
+*   **Input:** Clique Direito (Interagir) no chão.
 *   **Lógica:** O mod verifica se a posição é válida e recria a entidade com os dados salvos.
 *   **Feedback:**
     *   Som: `game:sounds/effect/squish2`
@@ -34,29 +33,12 @@ O objetivo é permitir que jogadores capturem e transportem animais de pequeno p
 
 ---
 
-## 3. Arquitetura Técnica
-
-### Componentes Principais
-1.  **`CollectibleBehaviorEntityCatch` (Behavior):**
-    *   Classe principal que gerencia a lógica de `OnHeldInteractStart`.
-    *   Injetada via JSON (`transport_behavior.json`) em Itens específicos.
-    *   Realiza a serialização/deserialização da entidade.
-
-2.  **`EntityInteractPatch` (Harmony Patch):**
-    *   **Alvo:** `Entity.OnInteract`
-    *   **Objetivo:** Interceptar interações vanilla quando o jogador segura um item de transporte.
-    *   **Obs:** Crítico para evitar que mensagens como "Este animal é selvagem demais" bloqueiem a captura.
-
-3.  **Sistema de Serialização:**
-    *   Usa **Reflection** para invocar `ToAttribute` e `FromAttribute` (métodos internos do jogo) para garantir persistência máxima de dados.
-
-
 ### Bugs Críticos
 *   **[CRITICAL] "Too wild to be captured":** Em animais ariscos (Galos, etc), o jogo dispara a mensagem de erro vanilla antes (ou apesar) da nossa lógica de captura, impedindo a ação. O Harmony Patch atual ainda não resolveu isso completamente (Investigação em andamento).
 
 ---
 
-## 5. Roadmap (Protocolo de Melhoria para também implementar)
+## 3.
 *   **Feedback Visual:** Adicionar partículas ou renderizar o modelo do animal dentro da cesta (se possível).
 *   **Refatoração:** Remover dependência de Reflection se API pública permitir.
 *   **Configuração:** Permitir whitelist/blacklist de entidades via config file.

@@ -1,13 +1,5 @@
-G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\bin\Release\modinfo.json
-G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\bin\Release\AnimalTransport.deps.json
-G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\bin\Release\AnimalTransport.dll
-G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\bin\Release\AnimalTransport.pdb
-G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\AnimalTransport.csproj.AssemblyReference.cache
 G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\AnimalTransport.GeneratedMSBuildEditorConfig.editorconfig
 G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\AnimalTransport.AssemblyInfoInputs.cache
 G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\AnimalTransport.AssemblyInfo.cs
 G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\AnimalTransport.csproj.CoreCompileInputs.cache
-G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\AnimalTransport.dll
-G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\refint\AnimalTransport.dll
-G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\AnimalTransport.pdb
-G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\ref\AnimalTransport.dll
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\AnimalTransport\obj\Release\AnimalTransport.csproj.AssemblyReference.cache
