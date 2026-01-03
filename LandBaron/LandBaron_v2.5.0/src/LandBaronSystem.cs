@@ -70,7 +70,7 @@ namespace LandBaron
         private bool showBorders = false;
         private long borderTimer = 0;
         
-        // private TerritoryHud hud;
+        private TerritoryHud hud;
 
         public override void Start(ICoreAPI api)
         {
@@ -449,16 +449,22 @@ namespace LandBaron
 
             api.Event.RegisterGameTickListener(ClientTick, 200); 
             
-            // hud = new TerritoryHud(api);
+            hud = new TerritoryHud(api);
         }
+
+        // Thread lock 
+        private object claimsLock = new object();
 
         private void OnPacketSync(SyncClaimsPacket packet)
         {
             if (packet == null || packet.Claims == null) return;
-
-            if (claims == null) claims = new Dictionary<string, LandClaim>();
-            claims.Clear();
-            foreach (var kvp in packet.Claims) claims[kvp.Key] = kvp.Value;
+            
+            lock (claimsLock) 
+            {
+                if (claims == null) claims = new Dictionary<string, LandClaim>();
+                claims.Clear();
+                foreach (var kvp in packet.Claims) claims[kvp.Key] = kvp.Value;
+            }
         }
 
         private void OnPacketSound(PlaySoundPacket packet)
@@ -475,28 +481,53 @@ namespace LandBaron
             if (currentKey != lastChunkKeyClient)
             {
                 lastChunkKeyClient = currentKey;
-                if (claims.TryGetValue(currentKey, out LandClaim claim))
+                try
                 {
-                    int totalLands = claims.Values.Count(c => c.OwnerUID == claim.OwnerUID);
-                    // hud.ShowNotification(claim, totalLands, capi.World.Player.PlayerUID);
+                    lock (claimsLock)
+                    {
+                        if (claims.TryGetValue(currentKey, out LandClaim claim))
+                        {
+                            if (claim == null) return; 
+                            
+                            int totalLands = claims.Values.Count(c => c != null && c.OwnerUID == claim.OwnerUID);
+                            // Safe Native Replacement
+                            int balance = 0;
+                            if (capi.World.Player.Entity != null)
+                            {
+                                balance = capi.World.Player.Entity.WatchedAttributes.GetInt("landBaron_balance", 0);
+                            }
 
-                    string statusVenda = claim.SalePrice > -1 ? $" | 💲 À VENDA: {claim.SalePrice}" : "";
-                    
-                    string cor = claim.OwnerUID == capi.World.Player.PlayerUID ? "#55FF55" : "#FF5555";
-                    if (claim.SalePrice > -1) cor = "#FFFF55";
-
-                    capi.ShowChatMessage($"<font color='{cor}'>[Território]</font> 🏰 **{claim.OwnerName}**{statusVenda}");
-                    capi.ShowChatMessage($"<font color='#AAAAAA'>📊 Império: {totalLands} terrenos conectados.</font>");
+                            capi.Event.EnqueueMainThreadTask(() => {
+                                if (hud != null) hud.UpdateInfo(claim, totalLands, balance, capi.World.Player.PlayerUID);
+                            }, "landbaron_showhud");
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    capi.Logger.Error("LandBaron ClientTick Error: " + ex.Message);
+                    capi.Logger.Error(ex.StackTrace);
                 }
             }
 
-            if (showBorders && capi.ElapsedMilliseconds < borderTimer)
+            try 
             {
-                if (claims.ContainsKey(currentKey)) DrawChunkBorders(pos, claims[currentKey]);
-                else showBorders = false;
+                if (showBorders && capi.ElapsedMilliseconds < borderTimer)
+                {
+                    lock (claimsLock)
+                    {
+                        if (claims.ContainsKey(currentKey)) DrawChunkBorders(pos, claims[currentKey]);
+                        else showBorders = false;
+                    }
+                }
+                else
+                {
+                    showBorders = false;
+                }
             }
-            else
+            catch (Exception ex)
             {
+                capi.Logger.Error("LandBaron DrawBorders Error: " + ex.Message);
                 showBorders = false;
             }
         }
@@ -535,55 +566,100 @@ namespace LandBaron
 
     }
 
-    /*
+    // --- HUD IMPLEMENTATION (VS 1.21.5+ Compliant) ---
     public class TerritoryHud : HudElement
     {
         private long fadeOutTime;
         private bool isVisible;
+        // private string currentOwner = ""; // To track changes
 
         public TerritoryHud(ICoreClientAPI capi) : base(capi)
         {
-        }
-
-        public void ShowNotification(LandClaim claim, int lands, string myUID)
-        {
-            string cor = claim.OwnerUID == myUID ? "#55FF55" : "#FF5555";
-            if (claim.SalePrice > -1) cor = "#FFFF55";
-
-            string text = $"<font color='{cor}'>🏰 {claim.OwnerName}</font>";
-            if (claim.SalePrice > -1) text += $" <font color='#DDDDDD'>| 💲 {claim.SalePrice}</font>";
-            text += $"\n<font color='#AAAAAA'>📊 Império: {lands} Chunks</font>";
-            
-            ElementBounds textBounds = ElementBounds.Fixed(0, 0, 400, 50);
-            ElementBounds dialogBounds = ElementBounds.Fixed(EnumDialogArea.CenterBottom, 0, -100, 400, 50);
-            
-            Composers["territoryhud"] = capi.Gui.CreateCompo("territoryhud", dialogBounds.FlatCopy().WithFixedAlignment(EnumDialogArea.CenterBottom))
-                //.AddDynamicText(text, CairoFont.WhiteSmallText().WithOrientation(EnumTextOrientation.Center), textBounds, "lbl")
-                .AddShadedDialogBG(dialogBounds)
-                .Compose();
-            
-            TryOpen();
-            isVisible = true;
-            fadeOutTime = capi.ElapsedMilliseconds + 5000;
-            
-            // Force update text immediately
-            // Composers["territoryhud"].GetDynamicText("lbl").SetNewText(text);
+            ComposeGuis();
         }
 
         public override void OnRenderGUI(float deltaTime)
         {
             if (isVisible)
             {
-                 base.OnRenderGUI(deltaTime);
-                 if (capi.ElapsedMilliseconds > fadeOutTime)
-                 {
-                     isVisible = false;
-                     TryClose();
-                 }
+                base.OnRenderGUI(deltaTime);
+                if (capi.ElapsedMilliseconds > fadeOutTime)
+                {
+                    isVisible = false;
+                    TryClose();
+                }
             }
         }
-        
+
+        public void ComposeGuis()
+        {
+            // 1. Define Content Bounds (Relative to Dialog top-left)
+            ElementBounds titleBounds = ElementBounds.Fixed(0, 0, 380, 25);
+            ElementBounds detailBounds = ElementBounds.Fixed(0, 30, 380, 20);
+            ElementBounds footerBounds = ElementBounds.Fixed(0, 55, 380, 20);
+
+            // 2. Define Background/Container Bounds
+            // It fills the parent (dialog) and contains the text fields
+            ElementBounds bgBounds = ElementBounds.Fill.WithFixedPadding(10)
+                .WithChildren(titleBounds, detailBounds, footerBounds);
+            bgBounds.BothSizing = ElementSizing.FitToChildren;
+
+            // 3. Define Main Dialog Bounds
+            // Center Bottom, moved UP by 120 pixels to clear the Hotbar
+            ElementBounds dialogBounds = ElementBounds.Fixed(EnumDialogArea.CenterBottom, 0, -120, 400, 100)
+                .WithChild(bgBounds);
+
+            // 4. Create Composer
+            SingleComposer = capi.Gui.CreateCompo("territoryhud", dialogBounds)
+                .AddShadedDialogBG(bgBounds)
+                .AddDynamicText("", CairoFont.WhiteSmallText().WithOrientation(EnumTextOrientation.Center), titleBounds, "title")
+                .AddDynamicText("", CairoFont.WhiteDetailText().WithOrientation(EnumTextOrientation.Center), detailBounds, "details")
+                .AddDynamicText("", CairoFont.WhiteDetailText().WithColor(new double[] { 1, 1, 0.6, 1 }).WithOrientation(EnumTextOrientation.Center), footerBounds, "footer")
+                .Compose();
+        }
+
+        public void UpdateInfo(LandClaim claim, int lands, int balance, string playerUid)
+        {
+            if (SingleComposer == null) return;
+            // capi.ShowChatMessage("DEBUG: HUD Update Triggered");
+
+            bool isOwner = claim.OwnerUID == playerUid;
+            string ownerText = isOwner ? $"Sua Propriedade: {claim.OwnerName}" : $"Propriedade de: {claim.OwnerName}";
+            
+            if (claim.SalePrice > -1)
+            {
+                 ownerText += " [A VENDA]";
+            }
+
+            string detailsText = $"Territorios: {lands} | Tipo: {(claim.PublicAccess ? "Publico" : "Privado")}";
+            string footerText = $"Saldo: {balance} moedas";
+            if (claim.SalePrice > -1) footerText += $" | Preco: {claim.SalePrice}";
+
+            // Update Texts
+            SingleComposer.GetDynamicText("title").SetNewText(ownerText);
+            
+            // Set Color: Green for self, Red for others, Yellow for sale
+            var titleFont = CairoFont.WhiteSmallText().WithOrientation(EnumTextOrientation.Center);
+            if (claim.SalePrice > -1) titleFont.Color = new double[] { 1, 1, 0.4, 1 }; // Yellowish
+            else if (isOwner) titleFont.Color = new double[] { 0.4, 1, 0.4, 1 }; // Greenish
+            else titleFont.Color = new double[] { 1, 0.4, 0.4, 1 }; // Reddish
+            
+            SingleComposer.GetDynamicText("title").Font = titleFont;
+            SingleComposer.GetDynamicText("title").RecomposeText();
+
+            SingleComposer.GetDynamicText("details").SetNewText(detailsText);
+            SingleComposer.GetDynamicText("footer").SetNewText(footerText);
+
+            // Logic to show
+            if (!isVisible)
+            {
+                TryOpen();
+                isVisible = true;
+            }
+            // Keep visible for 6 seconds
+            fadeOutTime = capi.ElapsedMilliseconds + 6000;
+        }
+
         public override bool Focusable => false;
     }
-    */
 }

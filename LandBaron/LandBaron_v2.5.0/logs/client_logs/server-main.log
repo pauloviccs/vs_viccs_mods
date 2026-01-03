@@ -1,0 +1,1540 @@
+3.1.2026 18:02:42 [Notification] Server logger started.
+3.1.2026 18:02:42 [Notification] Game Version: v1.21.5 (Stable)
+3.1.2026 18:02:42 [Notification] C# Framework: .net 8.0.22
+3.1.2026 18:02:42 [Notification] Zstd Version: 1.5.7
+3.1.2026 18:02:42 [Notification] Operating System: Windows 10.0.26200.0
+3.1.2026 18:02:42 [Notification] CPU Cores: 12
+3.1.2026 18:02:42 [Notification] CPU: AMD Ryzen 5 5600X 6-Core Processor             
+3.1.2026 18:02:42 [Notification] Available RAM: 16311 MB
+3.1.2026 18:02:42 [Event] It begins...
+3.1.2026 18:02:42 [Event] Launching server...
+3.1.2026 18:02:42 [Event] It senses...
+3.1.2026 18:02:42 [Event] Server v1.21.5, network v1.21.9, api v1.21.0
+3.1.2026 18:02:42 [Notification] Entering runphase Initialization
+3.1.2026 18:02:42 [Event] Loading configuration...
+3.1.2026 18:02:42 [Notification] Entering runphase Configuration
+3.1.2026 18:02:42 [Notification] Using world seed: -995181965
+3.1.2026 18:02:42 [Notification] Loading savegame
+3.1.2026 18:02:42 [Notification] Loaded existing save game data. Playstyle: surviveandbuild, Playstyle Lang code: preset-surviveandbuild, WorldType: preset-surviveandbuild
+3.1.2026 18:02:42 [Notification] Savegame %appdata%\VintagestoryData\Saves\comunidade.vcdbs loaded
+3.1.2026 18:02:42 [Notification] World size = 1024000 384 1024000
+3.1.2026 18:02:42 [Notification] Start discovering assets
+3.1.2026 18:02:42 [Notification] Found 1 base assets in category blocktypes
+3.1.2026 18:02:42 [Notification] Found 0 base assets in category itemtypes
+3.1.2026 18:02:42 [Notification] Found 32 base assets in category lang
+3.1.2026 18:02:42 [Notification] Found 0 base assets in category patches
+3.1.2026 18:02:42 [Notification] Found 24 base assets in category config
+3.1.2026 18:02:42 [Notification] Found 0 base assets in category worldproperties
+3.1.2026 18:02:42 [Notification] Found 49 base assets in category sounds
+3.1.2026 18:02:42 [Notification] Found 230 base assets in category shapes
+3.1.2026 18:02:42 [Notification] Found 176 base assets in category textures
+3.1.2026 18:02:42 [Notification] Found 0 base assets in category recipes
+3.1.2026 18:02:42 [Notification] Found 0 base assets in category worldgen
+3.1.2026 18:02:42 [Notification] Found 3 base assets in category entities
+3.1.2026 18:02:42 [Notification] Found 515 base assets in total
+3.1.2026 18:02:42 [Event] Building assets...
+3.1.2026 18:02:42 [Notification] Entering runphase LoadAssets
+3.1.2026 18:02:42 [Notification] Will search the following paths for mods:
+3.1.2026 18:02:42 [Notification]     C:\Games\Vintagestory\Mods
+3.1.2026 18:02:42 [Notification]     %appdata%\VintagestoryData\Mods
+3.1.2026 18:02:43 [Notification] Found 102 mods (0 disabled)
+3.1.2026 18:02:43 [Notification] Mods, sorted by dependency: walkingstick, bettertranslations, woodlogstack64, bola, buzzwords, catchledge, chargedjump, vichnybackpack, floralzonescaribbeanregion, floralzonescosmopolitanregion, goodhunting, lanternprojection, monsternuggetdrops, overhaullib, playermodellib, shelfobsessed, temporalsymphony, trashbinned, game, vsimgui, waysearchpoint, aculinaryartillery, attributerenderinglibrary, egocaribautomapmarkers, betterruins, blacksmithname, bloodtrail, simpleorganizer, chiselwiz, climbmountain, colorfulcandles, configlib, destariacharselsystem, discordlink, enhancedhandbook, extrainfo, fantasycreaturesupdate, firewoodtosticks, floatingcombattext, footprints, genelib, geologymap, goblinears, gravemod, hygge, infinitehands, itempickuphighlighter, jaunt, knapster, landbaron, lazymagnet, localrespawn, lostandfound, lotterymod, masterytitles, materialneeds, moreanimals, ndlwoodentorchholder, optimetime, packrat, pickupbabyanimals, pickupnotifier, playerlist, primitivebackpacks, realsmoke, resinrelief, rpvoicechat, rustboundmagic, saltandsands, scaffolding, scarecrow, simpletpa, simplewaypoints, sleepvotesystem, smartdump, stablesurface, statushudcont, stepupcontinued, terrainslabs, terraprety, timepassed, todolist, toolsanimations, trashmod, universalhusbandry, vanity, visiblebags, creative, survival, detailedanimals, draconis, equus, em, fueledwearablelights, pegasus, quiversandsheaths, aldiclasses, tailorsdelight, aldiclassesallpatch, aldiclasseslanguagespatch, aldiclassesvanillapatch, dressmakers
+3.1.2026 18:02:46 [Notification] [colorfulcandles] Successfully compiled 2 source files
+3.1.2026 18:02:46 [Notification] Instantiated 254 mod systems from 92 enabled mods
+3.1.2026 18:02:47 [Event] Starting mod 'Knapster v3.0.2' by ApacheTech Solutions...
+3.1.2026 18:02:47 [Event] Bola started
+3.1.2026 18:02:47 [Notification] [lanternprojection] [lanternprojection] Core system starting pre-init...
+3.1.2026 18:02:47 [Event] [destariacharselsystem] EnableClassBookRecipe set to True on server
+3.1.2026 18:02:47 [Event] LostAndFound started
+3.1.2026 18:02:47 [Notification] External Origins in load order: modorigin@C:\Games\Vintagestory\assets\creative\, modorigin@C:\Games\Vintagestory\assets\survival\, mod@adventurers-walking-stick_1.0.5.zip, mod@BetterTranslationsv0.0.34.zip, mod@Bigger Wood Log Stacks (x64)-1.2.0.zip, mod@bola_1.4.0.zip, mod@buzzwords_1.8.0.zip, mod@CatchLedge_0.6.0.zip, mod@ChargedJumpMod_1.2.2.zip, mod@ES-Backpacks-2.5.3.zip, mod@FloralZonesCaribbeanRegion-v1.0.23.zip, mod@FloralZonesCosmopolitanRegion-v1.0.11.zip, mod@goodHunting_13.zip, mod@lanternprojection-0.0.1.zip, mod@MonsterNuggetDrops_VS1.21_v1.4.0.zip, mod@overhaullib_1.15.8.zip, mod@playermodellib_1.7.0.zip, mod@shelfobsessed_v1.9.1.zip, mod@TemporalSymphony_2.2.2.zip, mod@TrashBinned_0.3.0.zip, mod@vsimgui_1.1.16.zip, mod@ACulinaryArtillery 2.0.0-dev.10.zip, mod@Auto Map Markers 4.0.3 - Vintagestory 1.21-rc.zip, mod@BetterRuinsv0.5.4.zip, mod@blacksmithname_1.2.4.zip, mod@BloodTrail-v1.1.8.zip, mod@ClimbMountain_0.2.1.zip, mod@DestariaCharselSystem-v1.1.2.zip, mod@ExtraInfo-v1.10.1.zip, mod@fantasycreaturesreborn.zip, mod@firewoodtostick.zip, mod@Footprints-v1.1.1.zip, mod@genelib_2.1.5.zip, mod@goblinears2.3.3.zip, mod@jaunt_2.1.1.zip, mod@Knapster_v3.0.2.zip, mod@localrespawn_2.0.0.zip, mod@MaterialNeeds_1.1.5.zip, mod@MoreAnimals-1.6.6.zip, mod@ndlwoodentorchholder_2.1.1.zip, mod@packrat_0.8.1.zip, mod@pickupbabyanimals_1.1.0.zip, mod@PlayerList-2.3.4.zip, mod@PrimitiveBackpacksv1.0.5.zip, mod@realsmoke_1.1.10.zip, mod@resin_relief_v1.0.1.zip, mod@rpvoicechat_2.3.31.zip, mod@rustboundmagic_3.1.8.zip, mod@SaltAndSands-1.1.6.zip, mod@scaffolding_1.2.5.zip, mod@scarecrow_v1.7.1.zip, mod@stablesurface_0.0.2.zip, mod@terrainslabs_1.0.6.zip, mod@TerraPrety_7.0.9.zip, mod@timepassed_1.0.0.zip, mod@toolsanimations_1.3.0.zip, mod@trashmod_1.0.8.zip, mod@universalhusbandry_1.1.1.zip, mod@Vanity-2.4.6.zip, mod@visiblebags_1.0.1.zip, mod@detailedanimals_0.7.0.zip, mod@draconis_1.1.4.zip, mod@equus_1.2.0.zip, mod@expanded_matter-3.4.0.zip, mod@fueledwearablelights_1.1.0.zip, mod@pegasus_1.0.2.zip, mod@quiversandsheaths_0.6.3.zip, mod@aldiclasses1.7.4.zip, mod@tailors_delight-2.1.2.zip, mod@aldiclassesallpatch1.0.2.zip, mod@aldiclasseslanguagespatch1.0.0.zip, mod@aldiclassesvanillapatch1.0.0.zip, mod@dressmakers-1.7.4.zip, mod@colorfulcandles(1.2.5).zip
+3.1.2026 18:02:47 [Notification] Found 929 external assets in category blocktypes
+3.1.2026 18:02:47 [Notification] Found 617 external assets in category itemtypes
+3.1.2026 18:02:48 [Notification] Found 7075 external assets in category lang
+3.1.2026 18:02:48 [Notification] Found 733 external assets in category patches
+3.1.2026 18:02:48 [Notification] Found 207 external assets in category config
+3.1.2026 18:02:48 [Notification] Found 42 external assets in category worldproperties
+3.1.2026 18:02:48 [Notification] Found 706 external assets in category sounds
+3.1.2026 18:02:48 [Notification] Found 6938 external assets in category shapes
+3.1.2026 18:02:48 [Notification] Found 11596 external assets in category textures
+3.1.2026 18:02:48 [Notification] Found 1098 external assets in category recipes
+3.1.2026 18:02:48 [Notification] Found 1304 external assets in category worldgen
+3.1.2026 18:02:48 [Notification] Found 150 external assets in category entities
+3.1.2026 18:02:48 [Notification] Found 190 external assets in category compatibility
+3.1.2026 18:02:48 [Notification] Found 4 external assets in category genetics
+3.1.2026 18:02:48 [Notification] Found 49 external assets in category nutrition
+3.1.2026 18:02:50 [Error] Failed to load language file: pt-br.json
+3.1.2026 18:02:50 [Error] Exception: Unexpected character encountered while parsing value: {. Path 'characterclass', line 280, position 21.
+   at Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Vintagestory.API.Config.TranslationService.Load(Boolean lazyLoad) in VintagestoryApi\Localization\TranslationService.cs:line 86
+3.1.2026 18:02:50 [Error] Failed to load language file: pt-br.json
+3.1.2026 18:02:50 [Error] Exception: Unexpected character encountered while parsing value: {. Path 'xskills', line 2, position 16.
+   at Newtonsoft.Json.JsonTextReader.ReadStringValue(ReadType readType)
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.PopulateDictionary(IDictionary dictionary, JsonReader reader, JsonDictionaryContract contract, JsonProperty containerProperty, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Vintagestory.API.Config.TranslationService.Load(Boolean lazyLoad) in VintagestoryApi\Localization\TranslationService.cs:line 86
+3.1.2026 18:02:50 [Error] Failed to load language file: pt-br.json
+3.1.2026 18:02:50 [Error] Exception: Cannot deserialize the current JSON array (e.g. [1,2,3]) into type 'System.Collections.Generic.Dictionary`2[System.String,System.String]' because the type requires a JSON object (e.g. {"name":"value"}) to deserialize correctly.
+To fix this error either change the JSON to a JSON object (e.g. {"name":"value"}) or change the deserialized type to an array or a type that implements a collection interface (e.g. ICollection, IList) like List<T> that can be deserialized from a JSON array. JsonArrayAttribute can also be added to the type to force it to deserialize from a JSON array.
+Path '', line 1, position 1.
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.EnsureArrayContract(JsonReader reader, Type objectType, JsonContract contract)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateList(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue, String id)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerMember, Object existingValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at Vintagestory.API.Config.TranslationService.Load(Boolean lazyLoad) in VintagestoryApi\Localization\TranslationService.cs:line 86
+3.1.2026 18:02:50 [Notification] Reloaded lang file with mod assets
+3.1.2026 18:02:50 [Event] started 'Buzzwords' mod
+3.1.2026 18:02:50 [Notification] [lanternprojection] [lanternprojection] Core system starting main init...
+3.1.2026 18:02:50 [Notification] [lanternprojection] [lanternprojection] Registered EntityLight type
+3.1.2026 18:02:50 [Notification] [lanternprojection] [lanternprojection] LanternMod initialized on server side
+3.1.2026 18:02:50 [Notification] Mod Config successfully loaded.
+3.1.2026 18:02:51 [Event] [attributerenderinglibrary] started 'Attribute Rendering Library' mod
+3.1.2026 18:02:51 [Notification] [Auto Map Markers] Patched methods: OnGettingBroken, OnGettingBroken
+3.1.2026 18:02:51 [Notification] [DestariaCharselSystem] ItemClassChangeBook registered on Server
+3.1.2026 18:02:51 [Event] started 'Extra Info' mod
+3.1.2026 18:02:51 [Notification] sekdebug 6
+3.1.2026 18:02:53 [Notification] [TrashMod] TrashMod initialized on Server
+3.1.2026 18:02:53 [Notification] [RPVoiceChat] TcpNetServer was successfully patched
+3.1.2026 18:02:54 [Notification] [Config lib] Configs loaded: 13
+3.1.2026 18:02:55 [Notification] Compatibility lib: 9 assets added, 0 assets replaced.
+3.1.2026 18:03:04 [Error] Patch 4 (target: game:entities/animal/mammal/bear-adult.json) in detailedanimals:patches/animals/bears.json failed because supplied path /server/behaviors/6/drops/0/quantityByType is invalid: The json path /server/behaviors/6/drops/0/quantityByType was not found. Could traverse until /server/behaviors/6/drops/0, but then 'quantityByType' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-bear-{type}-complete",
+  "quantity": {
+    "avg": 1,
+    "var": 0
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 5 (target: game:entities/animal/bird/chicken-adult.json) in detailedanimals:patches/animals/chickens.json failed because supplied path /server/behaviors/5/drops/1/quantity is invalid: The json path /server/behaviors/5/drops/1/quantity was not found. Could traverse until /server/behaviors/5/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "poultry-raw",
+  "quantityByType": {
+    "chicken-rooster": {
+      "avg": 15,
+      "var": 5
+    },
+    "chicken-hen": {
+      "avg": 10,
+      "var": 3
+    },
+    "chicken-henpoult": {
+      "avg": 5,
+      "var": 2
+    },
+    "chicken-roosterpoult": {
+      "avg": 5,
+      "var": 2
+    },
+    "quantity": {
+      "avg": 6,
+      "var": 3
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 13 (target: game:entities/animal/mammal/hooved/deer-adult.json) in detailedanimals:patches/animals/deer-adults.json failed because supplied path /server/behaviors/7/drops/1/quantity/avgByType is invalid: The json path /server/behaviors/7/drops/1/quantity/avgByType was not found. Could traverse until /server/behaviors/7/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-large",
+  "quantityByType": {
+    "deer-guemal-adult-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "deer-chital-adult-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "deer-caribou-adult-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "deer-whitetail-adult-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "deer-marsh-adult-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "deer-fallow-adult-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "*": {
+      "avg": 0,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 15 (target: game:entities/animal/mammal/hooved/deer-adult.json) in detailedanimals:patches/animals/deer-adults.json failed because supplied path /server/behaviors/7/drops/3/quantity/avgByType is invalid: The json path /server/behaviors/7/drops/3/quantity/avgByType was not found. Could traverse until /server/behaviors/7/drops/3, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-small",
+  "quantityByType": {
+    "deer-water-adult-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "deer-pudu-adult-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "*": {
+      "avg": 0,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 5 (target: game:entities/animal/mammal/hooved/deer-baby.json) in detailedanimals:patches/animals/deer-fawns.json failed because supplied path /server/behaviors/7/drops/1/quantity/avgByType is invalid: The json path /server/behaviors/7/drops/1/quantity/avgByType was not found. Could traverse until /server/behaviors/7/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-small",
+  "quantityByType": {
+    "deer-pampas-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "deer-pudu-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "deer-water-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "*-baby-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "deer-elk-*": {
+      "avg": 0,
+      "var": 0
+    },
+    "deer-caribou-*": {
+      "avg": 0,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 12 (target: game:entities/animal/mammal/fox-adult.json) in detailedanimals:patches/animals/foxes.json failed because supplied path /server/behaviors/7/drops/0/quantity is invalid: The json path /server/behaviors/7/drops/0/quantity was not found. Could traverse until /server/behaviors/7/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-small",
+  "quantityByType": {
+    "*-red-*": {
+      "avg": 1.8,
+      "var": 0
+    },
+    "*-arctic-*": {
+      "avg": 0.8,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 14 (target: game:entities/animal/mammal/fox-adult.json) in detailedanimals:patches/animals/foxes.json failed because supplied path /server/behaviors/7/drops/1/quantity is invalid: The json path /server/behaviors/7/drops/1/quantity was not found. Could traverse until /server/behaviors/7/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "*-red-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "*-arctic-*": {
+      "avg": 0.5,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 16 (target: game:entities/animal/mammal/fox-adult.json) in detailedanimals:patches/animals/foxes.json failed because supplied path /server/behaviors/7/drops/2/quantity is invalid: The json path /server/behaviors/7/drops/2/quantity was not found. Could traverse until /server/behaviors/7/drops/2, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "bushmeat-raw",
+  "quantityByType": {
+    "*-red-*": {
+      "avg": 0.3,
+      "var": 0
+    },
+    "*-arctic-*": {
+      "avg": 0.1,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 4 (target: game:entities/animal/mammal/hooved/gazelle-adult.json) in detailedanimals:patches/animals/gazelle-adults.json failed because supplied path /server/behaviors/6/drops/0/quantity is invalid: The json path /server/behaviors/6/drops/0/quantity was not found. Could traverse until /server/behaviors/6/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-medium",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 1,
+      "var": 0
+    },
+    "*-adult-female": {
+      "avg": 1,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 5 (target: game:entities/animal/mammal/hooved/gazelle-adult.json) in detailedanimals:patches/animals/gazelle-adults.json failed because supplied path /server/behaviors/6/drops/1/quantity is invalid: The json path /server/behaviors/6/drops/1/quantity was not found. Could traverse until /server/behaviors/6/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 0.5,
+      "var": 1
+    },
+    "*-adult-female": {
+      "avg": 2,
+      "var": 2
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 6 (target: game:entities/animal/mammal/hooved/gazelle-adult.json) in detailedanimals:patches/animals/gazelle-adults.json failed because supplied path /server/behaviors/6/drops/2/quantity is invalid: The json path /server/behaviors/6/drops/2/quantity was not found. Could traverse until /server/behaviors/6/drops/2, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "bushmeat-raw",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 7,
+      "var": 3
+    },
+    "*-adult-female": {
+      "avg": 5,
+      "var": 2
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 6 (target: game:entities/animal/mammal/hooved/gazelle-baby.json) in detailedanimals:patches/animals/gazelle-calves.json failed because supplied path /server/behaviors/6/drops/0/quantity is invalid: The json path /server/behaviors/6/drops/0/quantity was not found. Could traverse until /server/behaviors/6/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-small",
+  "quantityByType": {
+    "*-baby-*": {
+      "avg": 1,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 7 (target: game:entities/animal/mammal/hooved/gazelle-baby.json) in detailedanimals:patches/animals/gazelle-calves.json failed because supplied path /server/behaviors/6/drops/1/quantity is invalid: The json path /server/behaviors/6/drops/1/quantity was not found. Could traverse until /server/behaviors/6/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "*-baby-*": {
+      "avg": 1,
+      "var": 1
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 5 (target: game:entities/animal/mammal/hooved/goat-baby.json) in detailedanimals:patches/animals/goat-kids.json failed because supplied path /server/behaviors/7/drops/0/quantity/var is invalid: The json path /server/behaviors/7/drops/0/quantity/var was not found. Could traverse until /server/behaviors/7/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-small",
+  "quantityByType": {
+    "*-baby-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "*": {
+      "avg": 0,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 6 (target: game:entities/animal/mammal/hooved/goat-baby.json) in detailedanimals:patches/animals/goat-kids.json failed because supplied path /server/behaviors/7/drops/0/quantity/avg is invalid: The json path /server/behaviors/7/drops/0/quantity/avg was not found. Could traverse until /server/behaviors/7/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-small",
+  "quantityByType": {
+    "*-baby-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "*": {
+      "avg": 0,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 7 (target: game:entities/animal/mammal/hooved/goat-baby.json) in detailedanimals:patches/animals/goat-kids.json failed because supplied path /server/behaviors/7/drops/0/quantity/avgByType is invalid: The json path /server/behaviors/7/drops/0/quantity/avgByType was not found. Could traverse until /server/behaviors/7/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-small",
+  "quantityByType": {
+    "*-baby-*": {
+      "avg": 1,
+      "var": 0
+    },
+    "*": {
+      "avg": 0,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 8 (target: game:entities/animal/mammal/hooved/goat-baby.json) in detailedanimals:patches/animals/goat-kids.json failed because supplied path /server/behaviors/7/drops/1/quantity/var is invalid: The json path /server/behaviors/7/drops/1/quantity/var was not found. Could traverse until /server/behaviors/7/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "goat-muskox-baby-*": {
+      "avg": 3,
+      "var": 0.8
+    },
+    "goat-takingold-baby-*": {
+      "avg": 2,
+      "var": 0.8
+    },
+    "*-baby-*": {
+      "avg": 1.5,
+      "var": 1
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 9 (target: game:entities/animal/mammal/hooved/goat-baby.json) in detailedanimals:patches/animals/goat-kids.json failed because supplied path /server/behaviors/7/drops/1/quantity/avg is invalid: The json path /server/behaviors/7/drops/1/quantity/avg was not found. Could traverse until /server/behaviors/7/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "goat-muskox-baby-*": {
+      "avg": 3,
+      "var": 0.8
+    },
+    "goat-takingold-baby-*": {
+      "avg": 2,
+      "var": 0.8
+    },
+    "*-baby-*": {
+      "avg": 1.5,
+      "var": 1
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 10 (target: game:entities/animal/mammal/hooved/goat-baby.json) in detailedanimals:patches/animals/goat-kids.json failed because supplied path /server/behaviors/7/drops/1/quantity/avgByType is invalid: The json path /server/behaviors/7/drops/1/quantity/avgByType was not found. Could traverse until /server/behaviors/7/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "goat-muskox-baby-*": {
+      "avg": 3,
+      "var": 0.8
+    },
+    "goat-takingold-baby-*": {
+      "avg": 2,
+      "var": 0.8
+    },
+    "*-baby-*": {
+      "avg": 1.5,
+      "var": 1
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 9 (target: game:entities/animal/mammal/hare-adult.json) in detailedanimals:patches/animals/hares.json failed because supplied path /server/behaviors/7/drops/0/quantity is invalid: The json path /server/behaviors/7/drops/0/quantity was not found. Could traverse until /server/behaviors/7/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-small",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 1,
+      "var": 0
+    },
+    "*-adult-female": {
+      "avg": 1,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 10 (target: game:entities/animal/mammal/hare-adult.json) in detailedanimals:patches/animals/hares.json failed because supplied path /server/behaviors/7/drops/1/quantity is invalid: The json path /server/behaviors/7/drops/1/quantity was not found. Could traverse until /server/behaviors/7/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "*": {
+      "avg": 0,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 14 (target: game:entities/animal/mammal/hooved/moose-adult.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/currenthealth is invalid: The json path /server/behaviors/4/currenthealth was not found. Could traverse until /server/behaviors/4, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-adult-male": 50,
+    "*-adult-female": 30
+  },
+  "maxhealthByType": {
+    "*-adult-male": 50,
+    "*-adult-female": 30
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 15 (target: game:entities/animal/mammal/hooved/moose-adult.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/maxhealth is invalid: The json path /server/behaviors/4/maxhealth was not found. Could traverse until /server/behaviors/4, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-adult-male": 50,
+    "*-adult-female": 30
+  },
+  "maxhealthByType": {
+    "*-adult-male": 50,
+    "*-adult-female": 30
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 16 (target: game:entities/animal/mammal/hooved/moose-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/currenthealth is invalid: The json path /server/behaviors/4/currenthealth was not found. Could traverse until /server/behaviors/4, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 10
+  },
+  "maxhealthByType": {
+    "*-baby-*": 10
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 17 (target: game:entities/animal/mammal/hooved/moose-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/maxhealth is invalid: The json path /server/behaviors/4/maxhealth was not found. Could traverse until /server/behaviors/4, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 10
+  },
+  "maxhealthByType": {
+    "*-baby-*": 10
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 18 (target: game:entities/animal/mammal/fox-adult.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/currenthealth is invalid: The json path /server/behaviors/4/currenthealth was not found. Could traverse until /server/behaviors/4, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-adult-male": 4,
+    "*-adult-female": 3
+  },
+  "maxhealthByType": {
+    "*-adult-male": 4,
+    "*-adult-female": 3
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 19 (target: game:entities/animal/mammal/fox-adult.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/maxhealth is invalid: The json path /server/behaviors/4/maxhealth was not found. Could traverse until /server/behaviors/4, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-adult-male": 4,
+    "*-adult-female": 3
+  },
+  "maxhealthByType": {
+    "*-adult-male": 4,
+    "*-adult-female": 3
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 21 (target: game:entities/animal/mammal/fox-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/currenthealth is invalid: The json path /server/behaviors/4/currenthealth was not found. Could traverse until /server/behaviors/4, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 1
+  },
+  "maxhealthByType": {
+    "*-baby-*": 1
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 22 (target: game:entities/animal/mammal/fox-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/maxhealth is invalid: The json path /server/behaviors/4/maxhealth was not found. Could traverse until /server/behaviors/4, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 1
+  },
+  "maxhealthByType": {
+    "*-baby-*": 1
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 24 (target: game:entities/animal/mammal/hooved/gazelle-adult.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/3/currenthealth is invalid: The json path /server/behaviors/3/currenthealth was not found. Could traverse until /server/behaviors/3, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-adult-male": 10,
+    "*-adult-female": 8
+  },
+  "maxhealthByType": {
+    "*-adult-male": 10,
+    "*-adult-female": 8
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 25 (target: game:entities/animal/mammal/hooved/gazelle-adult.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/3/maxhealth is invalid: The json path /server/behaviors/3/maxhealth was not found. Could traverse until /server/behaviors/3, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-adult-male": 10,
+    "*-adult-female": 8
+  },
+  "maxhealthByType": {
+    "*-adult-male": 10,
+    "*-adult-female": 8
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 26 (target: game:entities/animal/mammal/hooved/gazelle-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/3/currenthealth is invalid: The json path /server/behaviors/3/currenthealth was not found. Could traverse until /server/behaviors/3, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 3
+  },
+  "maxhealthByType": {
+    "*-baby-*": 3
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 27 (target: game:entities/animal/mammal/hooved/gazelle-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/3/maxhealth is invalid: The json path /server/behaviors/3/maxhealth was not found. Could traverse until /server/behaviors/3, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 3
+  },
+  "maxhealthByType": {
+    "*-baby-*": 3
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 28 (target: game:entities/animal/mammal/hare-adult.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/currenthealth is invalid: The json path /server/behaviors/4/currenthealth was not found. Could traverse until /server/behaviors/4, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-adult-male": 3,
+    "*-adult-female": 2
+  },
+  "maxhealthByType": {
+    "*-adult-male": 3,
+    "*-adult-female": 2
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 29 (target: game:entities/animal/mammal/hare-adult.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/maxhealth is invalid: The json path /server/behaviors/4/maxhealth was not found. Could traverse until /server/behaviors/4, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-adult-male": 3,
+    "*-adult-female": 2
+  },
+  "maxhealthByType": {
+    "*-adult-male": 3,
+    "*-adult-female": 2
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 30 (target: game:entities/animal/mammal/hare-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/3/currenthealth is invalid: The json path /server/behaviors/3/currenthealth was not found. Could traverse until /server/behaviors/3, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 1
+  },
+  "maxhealthByType": {
+    "*-baby-*": 1
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 31 (target: game:entities/animal/mammal/hare-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/3/maxhealth is invalid: The json path /server/behaviors/3/maxhealth was not found. Could traverse until /server/behaviors/3, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 1
+  },
+  "maxhealthByType": {
+    "*-baby-*": 1
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 32 (target: game:entities/animal/mammal/hyena-adult.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/currenthealth is invalid: The json path /server/behaviors/4/currenthealth was not found. Could traverse until /server/behaviors/4, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-adult-male": 16,
+    "*-adult-female": 20
+  },
+  "maxhealthByType": {
+    "*-adult-male": 16,
+    "*-adult-female": 20
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 33 (target: game:entities/animal/mammal/hyena-adult.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/maxhealth is invalid: The json path /server/behaviors/4/maxhealth was not found. Could traverse until /server/behaviors/4, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-adult-male": 16,
+    "*-adult-female": 20
+  },
+  "maxhealthByType": {
+    "*-adult-male": 16,
+    "*-adult-female": 20
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 34 (target: game:entities/animal/mammal/hyena-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/currenthealth is invalid: The json path /server/behaviors/4/currenthealth was not found. Could traverse until /server/behaviors/4, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 4
+  },
+  "maxhealthByType": {
+    "*-baby-*": 4
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 35 (target: game:entities/animal/mammal/hyena-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/4/maxhealth is invalid: The json path /server/behaviors/4/maxhealth was not found. Could traverse until /server/behaviors/4, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 4
+  },
+  "maxhealthByType": {
+    "*-baby-*": 4
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 39 (target: game:entities/animal/mammal/wolf-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/3/currenthealth is invalid: The json path /server/behaviors/3/currenthealth was not found. Could traverse until /server/behaviors/3, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 4
+  },
+  "maxhealthByType": {
+    "*-baby-*": 4
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 40 (target: game:entities/animal/mammal/wolf-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/3/maxhealth is invalid: The json path /server/behaviors/3/maxhealth was not found. Could traverse until /server/behaviors/3, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 4
+  },
+  "maxhealthByType": {
+    "*-baby-*": 4
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 41 (target: game:entities/animal/mammal/hooved/pig-adult.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/3/currenthealth is invalid: The json path /server/behaviors/3/currenthealth was not found. Could traverse until /server/behaviors/3, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-adult-male": 25,
+    "*-adult-female": 20
+  },
+  "maxhealthByType": {
+    "*-adult-male": 25,
+    "*-adult-female": 20
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 42 (target: game:entities/animal/mammal/hooved/pig-adult.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/3/maxhealth is invalid: The json path /server/behaviors/3/maxhealth was not found. Could traverse until /server/behaviors/3, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-adult-male": 25,
+    "*-adult-female": 20
+  },
+  "maxhealthByType": {
+    "*-adult-male": 25,
+    "*-adult-female": 20
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 43 (target: game:entities/animal/mammal/hooved/pig-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/2/currenthealth is invalid: The json path /server/behaviors/2/currenthealth was not found. Could traverse until /server/behaviors/2, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 4
+  },
+  "maxhealthByType": {
+    "*-baby-*": 4
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 44 (target: game:entities/animal/mammal/hooved/pig-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/2/maxhealth is invalid: The json path /server/behaviors/2/maxhealth was not found. Could traverse until /server/behaviors/2, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 4
+  },
+  "maxhealthByType": {
+    "*-baby-*": 4
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 45 (target: game:entities/animal/mammal/hooved/sheep-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/3/currenthealth is invalid: The json path /server/behaviors/3/currenthealth was not found. Could traverse until /server/behaviors/3, but then 'currenthealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 4
+  },
+  "maxhealthByType": {
+    "*-baby-*": 4
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 46 (target: game:entities/animal/mammal/hooved/sheep-baby.json) in detailedanimals:patches/animals/health.json failed because supplied path /server/behaviors/3/maxhealth is invalid: The json path /server/behaviors/3/maxhealth was not found. Could traverse until /server/behaviors/3, but then 'maxhealth' does not exist. Full json at this path: {
+  "code": "health",
+  "currenthealthByType": {
+    "*-baby-*": 4
+  },
+  "maxhealthByType": {
+    "*-baby-*": 4
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 8 (target: game:entities/animal/mammal/hyena-baby.json) in detailedanimals:patches/animals/hyenas.json failed because supplied path /server/behaviors/7/drops/0/quantity is invalid: The json path /server/behaviors/7/drops/0/quantity was not found. Could traverse until /server/behaviors/7/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-small",
+  "quantityByType": {
+    "*-baby-*": {
+      "avg": 1,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 9 (target: game:entities/animal/mammal/hyena-baby.json) in detailedanimals:patches/animals/hyenas.json failed because supplied path /server/behaviors/7/drops/1/quantity is invalid: The json path /server/behaviors/7/drops/1/quantity was not found. Could traverse until /server/behaviors/7/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "*-baby-*": {
+      "avg": 1.5,
+      "var": 1
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 11 (target: game:entities/animal/mammal/hyena-adult.json) in detailedanimals:patches/animals/hyenas.json failed because supplied path /server/behaviors/7/drops/0/quantity is invalid: The json path /server/behaviors/7/drops/0/quantity was not found. Could traverse until /server/behaviors/7/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-large",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 1,
+      "var": 0
+    },
+    "*-adult-female": {
+      "avg": 1,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 12 (target: game:entities/animal/mammal/hyena-adult.json) in detailedanimals:patches/animals/hyenas.json failed because supplied path /server/behaviors/7/drops/1/quantity is invalid: The json path /server/behaviors/7/drops/1/quantity was not found. Could traverse until /server/behaviors/7/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 2,
+      "var": 1
+    },
+    "*-adult-female": {
+      "avg": 4,
+      "var": 1.5
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 13 (target: game:entities/animal/mammal/hyena-adult.json) in detailedanimals:patches/animals/hyenas.json failed because supplied path /server/behaviors/7/drops/2/quantity is invalid: The json path /server/behaviors/7/drops/2/quantity was not found. Could traverse until /server/behaviors/7/drops/2, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "bushmeat-raw",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 15,
+      "var": 5
+    },
+    "*-adult-female": {
+      "avg": 17,
+      "var": 6
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 9 (target: game:entities/animal/mammal/hooved/moose-adult.json) in detailedanimals:patches/animals/moose-adults.json failed because supplied path /server/behaviors/7/drops/0/quantity/avg is invalid: The json path /server/behaviors/7/drops/0/quantity/avg was not found. Could traverse until /server/behaviors/7/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-huge",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 1,
+      "var": 0
+    },
+    "*": {
+      "avg": 0,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 11 (target: game:entities/animal/mammal/hooved/moose-adult.json) in detailedanimals:patches/animals/moose-adults.json failed because supplied path /server/behaviors/7/drops/2/quantity/avg is invalid: The json path /server/behaviors/7/drops/2/quantity/avg was not found. Could traverse until /server/behaviors/7/drops/2, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 10,
+      "var": 8
+    },
+    "*-adult-female": {
+      "avg": 15,
+      "var": 14
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 6 (target: game:entities/animal/mammal/hooved/moose-baby.json) in detailedanimals:patches/animals/moose-calves.json failed because supplied path /server/behaviors/7/drops/0/quantity is invalid: The json path /server/behaviors/7/drops/0/quantity was not found. Could traverse until /server/behaviors/7/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-small",
+  "quantityByType": {
+    "*-baby-*": {
+      "avg": 1,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 2 (target: game:entities/animal/mammal/hooved/pig-adult.json) in detailedanimals:patches/animals/pigs.json failed because supplied path /server/behaviors/6/drops/0/quantity is invalid: The json path /server/behaviors/6/drops/0/quantity was not found. Could traverse until /server/behaviors/6/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-large",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 1,
+      "var": 0
+    },
+    "*-adult-female": {
+      "avg": 1,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 3 (target: game:entities/animal/mammal/hooved/pig-adult.json) in detailedanimals:patches/animals/pigs.json failed because supplied path /server/behaviors/6/drops/1/quantity is invalid: The json path /server/behaviors/6/drops/1/quantity was not found. Could traverse until /server/behaviors/6/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 8,
+      "var": 3
+    },
+    "*-adult-female": {
+      "avg": 12,
+      "var": 6
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 4 (target: game:entities/animal/mammal/hooved/pig-adult.json) in detailedanimals:patches/animals/pigs.json failed because supplied path /server/behaviors/6/drops/2/quantity is invalid: The json path /server/behaviors/6/drops/2/quantity was not found. Could traverse until /server/behaviors/6/drops/2, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "bushmeat-raw",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 28,
+      "var": 10
+    },
+    "*-adult-female": {
+      "avg": 16,
+      "var": 6
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 9 (target: game:entities/animal/mammal/raccoon-adult.json) in detailedanimals:patches/animals/raccoons.json failed because supplied path /server/behaviors/7/drops/0/quantity is invalid: The json path /server/behaviors/7/drops/0/quantity was not found. Could traverse until /server/behaviors/7/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-small",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 1,
+      "var": 0
+    },
+    "*-adult-female": {
+      "avg": 1,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 10 (target: game:entities/animal/mammal/raccoon-adult.json) in detailedanimals:patches/animals/raccoons.json failed because supplied path /server/behaviors/7/drops/1/quantity is invalid: The json path /server/behaviors/7/drops/1/quantity was not found. Could traverse until /server/behaviors/7/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 2,
+      "var": 1
+    },
+    "*-adult-female": {
+      "avg": 3,
+      "var": 2
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 11 (target: game:entities/animal/mammal/raccoon-adult.json) in detailedanimals:patches/animals/raccoons.json failed because supplied path /server/behaviors/7/drops/2/quantity is invalid: The json path /server/behaviors/7/drops/2/quantity was not found. Could traverse until /server/behaviors/7/drops/2, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "bushmeat-raw",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 3,
+      "var": 1
+    },
+    "*-adult-female": {
+      "avg": 2,
+      "var": 1
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 2 (target: game:entities/animal/mammal/hooved/sheep-adult.json) in detailedanimals:patches/animals/sheep.json failed because supplied path /server/behaviors/6/drops/0/quantity is invalid: The json path /server/behaviors/6/drops/0/quantity was not found. Could traverse until /server/behaviors/6/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-large",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 1,
+      "var": 0
+    },
+    "*-adult-female": {
+      "avg": 1,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 3 (target: game:entities/animal/mammal/hooved/sheep-adult.json) in detailedanimals:patches/animals/sheep.json failed because supplied path /server/behaviors/6/drops/1/quantity is invalid: The json path /server/behaviors/6/drops/1/quantity was not found. Could traverse until /server/behaviors/6/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 2,
+      "var": 2
+    },
+    "*-adult-female": {
+      "avg": 3,
+      "var": 4
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 4 (target: game:entities/animal/mammal/hooved/sheep-adult.json) in detailedanimals:patches/animals/sheep.json failed because supplied path /server/behaviors/6/drops/2/quantity is invalid: The json path /server/behaviors/6/drops/2/quantity was not found. Could traverse until /server/behaviors/6/drops/2, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "bushmeat-raw",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 12,
+      "var": 5
+    },
+    "*-adult-female": {
+      "avg": 10,
+      "var": 4
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 7 (target: game:entities/animal/mammal/wolf-baby.json) in detailedanimals:patches/animals/wolves.json failed because supplied path /server/behaviors/6/drops/0/quantity is invalid: The json path /server/behaviors/6/drops/0/quantity was not found. Could traverse until /server/behaviors/6/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-small",
+  "quantityByType": {
+    "*-baby-*": {
+      "avg": 1,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 8 (target: game:entities/animal/mammal/wolf-baby.json) in detailedanimals:patches/animals/wolves.json failed because supplied path /server/behaviors/6/drops/1/quantity is invalid: The json path /server/behaviors/6/drops/1/quantity was not found. Could traverse until /server/behaviors/6/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "*-baby-*": {
+      "avg": 1.5,
+      "var": 1
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 10 (target: game:entities/animal/mammal/wolf-adult.json) in detailedanimals:patches/animals/wolves.json failed because supplied path /server/behaviors/6/drops/0/quantity is invalid: The json path /server/behaviors/6/drops/0/quantity was not found. Could traverse until /server/behaviors/6/drops/0, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "hide-raw-large",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 1,
+      "var": 0
+    },
+    "*-adult-female": {
+      "avg": 1,
+      "var": 0
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 11 (target: game:entities/animal/mammal/wolf-adult.json) in detailedanimals:patches/animals/wolves.json failed because supplied path /server/behaviors/6/drops/1/quantity is invalid: The json path /server/behaviors/6/drops/1/quantity was not found. Could traverse until /server/behaviors/6/drops/1, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "fat",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 5,
+      "var": 1
+    },
+    "*-adult-female": {
+      "avg": 8,
+      "var": 3
+    }
+  }
+}
+3.1.2026 18:03:04 [Error] Patch 12 (target: game:entities/animal/mammal/wolf-adult.json) in detailedanimals:patches/animals/wolves.json failed because supplied path /server/behaviors/6/drops/2/quantity is invalid: The json path /server/behaviors/6/drops/2/quantity was not found. Could traverse until /server/behaviors/6/drops/2, but then 'quantity' does not exist. Full json at this path: {
+  "type": "item",
+  "code": "bushmeat-raw",
+  "quantityByType": {
+    "*-adult-male": {
+      "avg": 12,
+      "var": 5
+    },
+    "*-adult-female": {
+      "avg": 10,
+      "var": 5
+    }
+  }
+}
+3.1.2026 18:03:05 [Notification] JsonPatch Loader: 4726 patches total, successfully applied 4106 patches, missing files on 549 patches, unmet conditions on 603 patches, had errors on 71 patches
+3.1.2026 18:03:05 [Event] 4 genome types loaded
+3.1.2026 18:03:05 [Event] 49 nutrition datasets loaded
+3.1.2026 18:03:07 [Event] Ele lembra...
+3.1.2026 18:03:08 [Notification] Loaded 7899 unique items
+3.1.2026 18:03:08 [Event] Tudo que veio antes...
+3.1.2026 18:03:12 [Notification] Loaded 21833 unique blocks
+3.1.2026 18:03:12 [Notification] Loaded 1245 unique entities
+3.1.2026 18:03:12 [Notification] Loaded 12 entity tags, 4 item tags and 1 block tags from 'game' domain
+3.1.2026 18:03:12 [Notification] BlockLoader: Entities, Blocks and Items loaded
+3.1.2026 18:03:12 [Event] Remapping blocks and items...
+3.1.2026 18:03:12 [Event] 24 cooking recipes loaded
+3.1.2026 18:03:12 [Event] Sabor e cheiro...
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code game:debarkedlog-darkaged-ud in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'game:recipes/grid/debarkedlog.json': Output Block code game:debarkedlog-darkaged-ud cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code game:debarkedlog-darkaged-ud in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'game:recipes/grid/debarkedlog.json': Output Block code game:debarkedlog-darkaged-ud cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-plain-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-plain-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-orange-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-orange-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-black-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-black-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-red-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-red-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-blue-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-blue-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-purple-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-purple-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-pink-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-pink-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-white-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-white-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-yellow-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-yellow-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-gray-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-gray-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-green-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-green-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-teal-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-teal-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-beige-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-beige-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-brown-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-brown-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-lavender-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-lavender-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-darklavender-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-darklavender-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-olive-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-olive-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-darkolive-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-darkolive-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-ochre-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-ochre-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-darkblue-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-darkblue-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-indigo-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-indigo-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-maroon-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-maroon-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-darkgreen-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-darkgreen-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-azure-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-azure-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-azure-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-azure-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code vichnybackpack:esbackpack-normal-lightorange-eldrathium in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'vichnybackpack:recipes/grid/esbackpack-plain.json': Output Item code vichnybackpack:esbackpack-normal-lightorange-eldrathium cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code trashbinned:outdoor-trashbin-lightaged in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'trashbinned:recipes/grid/outdoortrashbin.json': Output Block code trashbinned:outdoor-trashbin-lightaged cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code trashbinned:trashbin-lightaged in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'trashbinned:recipes/grid/trashbin.json': Output Block code trashbinned:trashbin-lightaged cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:bottlerack-lightaged-acacia-north in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:bottlerackacacia': Output Block code aculinaryartillery:bottlerack-lightaged-acacia-north cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:bottlerack-lightaged-baldcypress-north in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:bottlerackbaldcypress': Output Block code aculinaryartillery:bottlerack-lightaged-baldcypress-north cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:bottlerack-lightaged-birch-north in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:bottlerackbirch': Output Block code aculinaryartillery:bottlerack-lightaged-birch-north cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:bottlerack-lightaged-ebony-north in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:bottlerackebony': Output Block code aculinaryartillery:bottlerack-lightaged-ebony-north cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:bottlerack-lightaged-kapok-north in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:bottlerackkapok': Output Block code aculinaryartillery:bottlerack-lightaged-kapok-north cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:bottlerack-lightaged-larch-north in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:bottleracklarch': Output Block code aculinaryartillery:bottlerack-lightaged-larch-north cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:bottlerack-lightaged-maple-north in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:bottlerackmaple': Output Block code aculinaryartillery:bottlerack-lightaged-maple-north cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:bottlerack-lightaged-oak-north in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:bottlerackoak': Output Block code aculinaryartillery:bottlerack-lightaged-oak-north cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:bottlerack-lightaged-pine-north in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:bottlerackpine': Output Block code aculinaryartillery:bottlerack-lightaged-pine-north cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:bottlerack-lightaged-purpleheart-north in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:bottlerackpurpleheart': Output Block code aculinaryartillery:bottlerack-lightaged-purpleheart-north cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:bottlerack-lightaged-redwood-north in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:bottlerackredwood': Output Block code aculinaryartillery:bottlerack-lightaged-redwood-north cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:bottlerack-lightaged-walnut-north in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:bottlerackwalnut': Output Block code aculinaryartillery:bottlerack-lightaged-walnut-north cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:bottlerack-lightaged-aged-north in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:bottlerackaged': Output Block code aculinaryartillery:bottlerack-lightaged-aged-north cannot be resolved
+3.1.2026 18:03:13 [Warning] Failed resolving crafting recipe ingredient with code aculinaryartillery:rollingpin-darkaged in Grid recipe
+3.1.2026 18:03:13 [Error] Grid Recipe 'aculinaryartillery:recipes/grid/rollingpin.json': Output Item code aculinaryartillery:rollingpin-darkaged cannot be resolved
+3.1.2026 18:03:14 [Warning] Failed resolving crafting recipe ingredient with code ndlwoodentorchholder:woodenholder-agedebony in Grid recipe
+3.1.2026 18:03:14 [Error] Grid Recipe 'ndlwoodentorchholder:recipes/grid/woodenholder.json': Output Item code ndlwoodentorchholder:woodenholder-agedebony cannot be resolved
+3.1.2026 18:03:14 [Event] 3520 crafting recipes loaded from 753 files
+3.1.2026 18:03:14 [Event] Invenções grandiosas...
+3.1.2026 18:03:14 [Event] 0 mixing recipes loaded
+3.1.2026 18:03:14 [Event] O chef e o aprendiz...
+3.1.2026 18:03:14 [Event] 0 kneading recipes loaded
+3.1.2026 18:03:14 [Event] A manteiga e o pão...
+3.1.2026 18:03:14 [Event] 6 simmer recipes loaded
+3.1.2026 18:03:14 [Event] A calda e a banha...
+3.1.2026 18:03:14 [Event] 9 metal alloys loaded
+3.1.2026 18:03:14 [Event] Coisas cintilantes no chão...
+3.1.2026 18:03:14 [Event] 331 smithing recipes loaded
+3.1.2026 18:03:14 [Event] Faíscas queimando...
+3.1.2026 18:03:14 [Event] 133 clay forming recipes loaded
+3.1.2026 18:03:14 [Event] Formas moldadas...
+3.1.2026 18:03:14 [Event] 95 knapping recipes loaded
+3.1.2026 18:03:14 [Event] Ferramentas despojadas...
+3.1.2026 18:03:14 [Warning] barrel recipe file materialneeds:recipes/barrel/aged/lightagedwood.json make uses of wildcards, but no blocks or item matching those wildcards were found.
+3.1.2026 18:03:14 [Warning] barrel recipe file pegasus:recipes/barrel/recolor.json make uses of wildcards, but no blocks or item matching those wildcards were found.
+3.1.2026 18:03:14 [Event] 1118 barrel recipes loaded
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-acacia
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-aged
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-baldcypress
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-birch
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-ebony
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-kapok
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-larch
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-lightaged
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-maple
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-oak
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-pine
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-purpleheart
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-redwood
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-rottenebony
+3.1.2026 18:03:14 [Warning] Failed resolving a blocks item drop or smeltedstack with code ndlwoodentorchholder:woodenholder in Block ndlwoodentorchholder:hangingfilled-walnut
+3.1.2026 18:03:14 [Notification] Entering runphase AssetsFinalize
+3.1.2026 18:03:15 [Event] ########## started 'Scarecrow' mod ##########
+3.1.2026 18:03:15 [Event] Server assets loaded, parsed, registered and finalized
+3.1.2026 18:03:15 [Event] Initialising systems...
+3.1.2026 18:03:15 [Notification] Entering runphase LoadGamePre
+3.1.2026 18:03:15 [Notification] [lanternprojection] [lanternprojection] Core system server side started
+3.1.2026 18:03:15 [Notification] Reloaded 19 weather patterns, 5 wind patterns and 5 weather events
+3.1.2026 18:03:15 [Notification] [ChestOrganizer] Mod de Organizacao carregado.
+3.1.2026 18:03:15 [Notification] [DiscordLink] Mod Inicializado.
+3.1.2026 18:03:15 [Notification] [InfiniteHands] Carregado: Construção contínua ativada.
+3.1.2026 18:03:15 [Notification] [LotteryMod] Sistema de Apostas INICIADO. Registrando comandos...
+3.1.2026 18:03:15 [Notification] [Scaffolding] Loaded config file from .\DadosServidor\ModConfig\scaffolding.json
+3.1.2026 18:03:15 [Notification] [SmartDump] Mod de Despejo Inteligente carregado.
+3.1.2026 18:03:15 [Notification] [TrashMod] TrashMod server-side initialized.
+3.1.2026 18:03:15 [Notification] [RPVoiceChat] Launching NativeTCP server
+3.1.2026 18:03:15 [Notification] [RPVoiceChat] NativeTCP server started
+3.1.2026 18:03:15 [Notification] Started 214 systems on Server:
+3.1.2026 18:03:15 [Notification]     Mod 'Knapster_v3.0.2.zip' (knapster):
+3.1.2026 18:03:15 [Notification]         Knapster.Program
+3.1.2026 18:03:15 [Notification]         Knapster.Features.ModMenu.Systems.KnapsterAdminModMenu
+3.1.2026 18:03:15 [Notification]         Knapster.Features.EasyTilling.Systems.EasyTillingServer
+3.1.2026 18:03:15 [Notification]         Knapster.Features.EasySmithing.Systems.EasySmithingServer
+3.1.2026 18:03:15 [Notification]         Knapster.Features.EasyPressing.Systems.EasyPressingServer
+3.1.2026 18:03:15 [Notification]         Knapster.Features.EasyPanning.Systems.EasyPanningServer
+3.1.2026 18:03:15 [Notification]         Knapster.Features.EasyMixingBowl.Systems.EasyMixingBowlServer
+3.1.2026 18:03:15 [Notification]         Knapster.Features.EasyKnapping.Systems.EasyKnappingServer
+3.1.2026 18:03:15 [Notification]         Knapster.Features.EasyHarvesting.Systems.EasyHarvestingServer
+3.1.2026 18:03:15 [Notification]         Knapster.Features.EasyGrinding.Systems.EasyGrindingServer
+3.1.2026 18:03:15 [Notification]         Knapster.Features.EasyClayForming.Systems.EasyClayFormingServer
+3.1.2026 18:03:15 [Notification]     Mod 'VSEssentials.dll' (game):
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.Core
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.EntityPartitioning
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ErrorReporter
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.ModCompatiblityUtil
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.NoObf.ModJsonPatchLoader
+3.1.2026 18:03:15 [Notification]         FluffyClouds.FluffyCloudsModSystem
+3.1.2026 18:03:15 [Notification]         Vintagestory.Essentials.PathfindSystem
+3.1.2026 18:03:15 [Notification]         Vintagestory.Essentials.PathFindDebug
+3.1.2026 18:03:15 [Notification]         Vintagestory.Essentials.PathfindingAsync
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.JsonExport
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.ModBasicBlocksLoader
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.AiRuntimeConfig
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemSyncHarvestableDropsToClient
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemEmotes
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.LeafBlockDecay
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.POIRegistry
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.RoomRegistry
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.WeatherSystemCommands
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.WeatherSystemServer
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.WorldMapManager
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.NoObf.ModRegistryObjectTypeLoader
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.LoadColorMaps
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ClothManager
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GridRecipeLoader
+3.1.2026 18:03:15 [Notification]     Mod 'VSSurvivalMod.dll' (survival):
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenTerra
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenSnowLayer
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemControlPoints
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.SurvivalCoreSystem
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenTerraPostProcess
+3.1.2026 18:03:15 [Notification]         Vintagestory.Systems.StoryLockableDoor
+3.1.2026 18:03:15 [Notification]         Vintagestory.Client.NoObf.StoryGenFailedSystem
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.UpgradeTasks
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.ChiselBlockBulkSetMaterial
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.ModSystemDetailModeSync
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.NpcControl
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.ModSystemTiledDungeonGenerator
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenFromHeightmap
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenMaps
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenRockStrataNew
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenHotSprings
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenCreatures
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemExplosionAffectedStability
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.MyceliumSystem
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModsystemButterflySpawnCondsExtra
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemCatchCreature
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemGliding
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemSwoopDev
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.Timeswitch
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ClutterBookshelfUtil
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ScreenshakeToClientModSystem
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemResoArchiveCommands
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.StoryStructuresSpawnConditions
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemNPCHairStyling
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemSkinnableAdditions
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemVillagerDebug
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemAuction
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemBlockReinforcement
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.Core
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemBoatingSoundAndRatlineStamina
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.CharacterSystem
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.VariablesModSystem
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModsystemElevator
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ActivityModSystem
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ActivityEditorSystem
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.FruitingSystem
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemCommandHandbook
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemTutorial
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemCorpseReturnTeleporter
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemNightVision
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.TobiasTeleporter
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModJournal
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.LiquidItemStackRenderer
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemStructureLocator
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModLootRandomizer
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemEntityOwnership
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemRifts
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemRiftWeather
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSleeping
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemSupportBeamPlacer
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.TeleporterManager
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModTemperature
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.SystemTemporalStability
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.TemporalStabilityEffects
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemWearableStats
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemEditableBook
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.Mechanics.MechanicalPowerMod
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenDungeons
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenDeposits
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.GenStoryStructures
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenCaves
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenStructures
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.WgenCommands
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenDevastationLayer
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenBlockLayers
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenPonds
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenStructuresPosPass
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenVegetationAndPatches
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.RecipeRegistrySystem
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenRivulets
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenLightSurvival
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.RecipeLoader
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemFireFromLightning
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemOreMap
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemSnowballs
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.HumanoidOutfits
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.ModSystemDevastationEffects
+3.1.2026 18:03:15 [Notification]         Vintagestory.GameContent.DisableRecipeRegisteringSystem
+3.1.2026 18:03:15 [Notification]     Mod 'VSCreativeMod.dll' (creative):
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.Core
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.WorldEdit.WorldEdit
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenBlockLayersFlat
+3.1.2026 18:03:15 [Notification]         Vintagestory.ServerMods.GenLightCreative
+3.1.2026 18:03:15 [Notification]     Mod 'configlib_1.10.11.zip' (configlib):
+3.1.2026 18:03:15 [Notification]         ConfigLib.ConfigLibModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'adventurers-walking-stick_1.0.5.zip' (walkingstick):
+3.1.2026 18:03:15 [Notification]         WalkingStick.WalkingStick
+3.1.2026 18:03:15 [Notification]     Mod 'bola_1.4.0.zip' (bola):
+3.1.2026 18:03:15 [Notification]         Bola.BolaModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'buzzwords_1.8.0.zip' (buzzwords):
+3.1.2026 18:03:15 [Notification]         BuzzWords.ModSystem.BuzzWordsSystem
+3.1.2026 18:03:15 [Notification]     Mod 'CatchLedge_0.6.0.zip' (catchledge):
+3.1.2026 18:03:15 [Notification]         CatchingLedge.CatchingLedgeModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'ChargedJumpMod_1.2.2.zip' (chargedjump):
+3.1.2026 18:03:15 [Notification]         ChargedJumpMod.ChargedJump
+3.1.2026 18:03:15 [Notification]         ChargedJumpMod.RunJumpSuppressorSystem
+3.1.2026 18:03:15 [Notification]     Mod 'FloralZonesCaribbeanRegion-v1.0.23.zip' (floralzonescaribbeanregion):
+3.1.2026 18:03:15 [Notification]         FloralZones.Core
+3.1.2026 18:03:15 [Notification]     Mod 'FloralZonesCosmopolitanRegion-v1.0.11.zip' (floralzonescosmopolitanregion):
+3.1.2026 18:03:15 [Notification]         FloralZones.Core
+3.1.2026 18:03:15 [Notification]     Mod 'lanternprojection-0.0.1.zip' (lanternprojection):
+3.1.2026 18:03:15 [Notification]         lanternprojection.lanternprojectionCore
+3.1.2026 18:03:15 [Notification]         lanternprojection.LanternMod
+3.1.2026 18:03:15 [Notification]     Mod 'overhaullib_1.15.8.zip' (overhaullib):
+3.1.2026 18:03:15 [Notification]         CombatOverhaul.FueledItemSystem
+3.1.2026 18:03:15 [Notification]         CombatOverhaul.CombatOverhaulSystem
+3.1.2026 18:03:15 [Notification]         CombatOverhaul.CombatOverhaulAnimationsSystem
+3.1.2026 18:03:15 [Notification]         CombatOverhaul.Compatibility.PlayerModelLibCompatibilitySystem
+3.1.2026 18:03:15 [Notification]     Mod 'playermodellib_1.7.0.zip' (playermodellib):
+3.1.2026 18:03:15 [Notification]         PlayerModelLib.PlayerModelModSystem
+3.1.2026 18:03:15 [Notification]         PlayerModelLib.CustomModelsSystem
+3.1.2026 18:03:15 [Notification]     Mod 'TemporalSymphony_2.2.2.zip' (temporalsymphony):
+3.1.2026 18:03:15 [Notification]         TemporalCall.ClientTemporalCallEffects
+3.1.2026 18:03:15 [Notification]         TemporalCall.TemporalCallChatSilencer
+3.1.2026 18:03:15 [Notification]         TemporalCall.TemporalCallModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'TrashBinned_0.3.0.zip' (trashbinned):
+3.1.2026 18:03:15 [Notification]         Trashbin.ModSystemTrashbin
+3.1.2026 18:03:15 [Notification]     Mod 'ACulinaryArtillery 2.0.0-dev.10.zip' (aculinaryartillery):
+3.1.2026 18:03:15 [Notification]         ACulinaryArtillery.ACulinaryArtillery
+3.1.2026 18:03:15 [Notification]         ACulinaryArtillery.ACARecipeRegistrySystem
+3.1.2026 18:03:15 [Notification]     Mod 'AttributeRenderingLibrary-v2.4.0.zip' (attributerenderinglibrary):
+3.1.2026 18:03:15 [Notification]         AttributeRenderingLibrary.Core
+3.1.2026 18:03:15 [Notification]     Mod 'Auto Map Markers 4.0.3 - Vintagestory 1.21-rc.zip' (egocaribautomapmarkers):
+3.1.2026 18:03:15 [Notification]         Egocarib.AutoMapMarkers.MapMarkerMod
+3.1.2026 18:03:15 [Notification]     Mod 'blacksmithname_1.2.4.zip' (blacksmithname):
+3.1.2026 18:03:15 [Notification]         blacksmithname.src.blacksmithname
+3.1.2026 18:03:15 [Notification]     Mod 'BloodTrail-v1.1.8.zip' (bloodtrail):
+3.1.2026 18:03:15 [Notification]         BloodTrail.Core
+3.1.2026 18:03:15 [Notification]     Mod 'ChestOrganizer_v2.0.0.zip' (simpleorganizer):
+3.1.2026 18:03:15 [Notification]         SimpleOrganizer.OrganizerSystem
+3.1.2026 18:03:15 [Notification]     Mod 'ClimbMountain_0.2.1.zip' (climbmountain):
+3.1.2026 18:03:15 [Notification]         climbmountain.ClimbMountainModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'DestariaCharselSystem-v1.1.2.zip' (destariacharselsystem):
+3.1.2026 18:03:15 [Notification]         DestariaCharselSystem.ModSystem.DestariaCharselModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'DiscordLink_v2.0.0.zip' (discordlink):
+3.1.2026 18:03:15 [Notification]         DiscordLink.DiscordStatusSystem
+3.1.2026 18:03:15 [Notification]     Mod 'ExtraInfo-v1.10.1.zip' (extrainfo):
+3.1.2026 18:03:15 [Notification]         ExtraInfo.Core
+3.1.2026 18:03:15 [Notification]         ExtraInfo.HarmonyPatches
+3.1.2026 18:03:15 [Notification]         ExtraInfo.HighlightMycelium
+3.1.2026 18:03:15 [Notification]         ExtraInfo.HighlightReinforced
+3.1.2026 18:03:15 [Notification]         ExtraInfo.ModSystemHighlight
+3.1.2026 18:03:15 [Notification]         ExtraInfo.ServerEntityType
+3.1.2026 18:03:15 [Notification]     Mod 'Footprints-v1.1.1.zip' (footprints):
+3.1.2026 18:03:15 [Notification]         Core
+3.1.2026 18:03:15 [Notification]     Mod 'genelib_2.1.5.zip' (genelib):
+3.1.2026 18:03:15 [Notification]         Genelib.GenelibSystem
+3.1.2026 18:03:15 [Notification]         Genelib.JsonTweakingSystem
+3.1.2026 18:03:15 [Notification]     Mod 'GraveMod_v1.0.1.zip' (gravemod):
+3.1.2026 18:03:15 [Notification]         GraveMod.GraveSystem
+3.1.2026 18:03:15 [Notification]     Mod 'Hygge_v1.0.0.zip' (hygge):
+3.1.2026 18:03:15 [Notification]         HyggeMod.HyggeSystem
+3.1.2026 18:03:15 [Notification]     Mod 'InfiniteHands_v1.0.0.zip' (infinitehands):
+3.1.2026 18:03:15 [Notification]         InfiniteHands.InfiniteHandsSystem
+3.1.2026 18:03:15 [Notification]     Mod 'jaunt_2.1.1.zip' (jaunt):
+3.1.2026 18:03:15 [Notification]         Jaunt.JauntModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'LandBaron_v2.5.0.zip' (landbaron):
+3.1.2026 18:03:15 [Notification]         LandBaron.LandBaronSystem
+3.1.2026 18:03:15 [Notification]     Mod 'LazyMagnet_v1.0.0.zip' (lazymagnet):
+3.1.2026 18:03:15 [Notification]         LazyMagnet.MagnetSystem
+3.1.2026 18:03:15 [Notification]     Mod 'localrespawn_2.0.0.zip' (localrespawn):
+3.1.2026 18:03:15 [Notification]         LocalRespawns.LocalRespawnsModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'lostandfound_1.0.1.zip' (lostandfound):
+3.1.2026 18:03:15 [Notification]         LostAndFound.LostAndFoundModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'LotteryMod_v.2.0.0.zip' (lotterymod):
+3.1.2026 18:03:15 [Notification]         LotteryMod.LotterySystem
+3.1.2026 18:03:15 [Notification]     Mod 'MasterySystem_v1.0.0.zip' (masterytitles):
+3.1.2026 18:03:15 [Notification]         MasteryTitles.MasterySystem
+3.1.2026 18:03:15 [Notification]     Mod 'MoreAnimals-1.6.6.zip' (moreanimals):
+3.1.2026 18:03:15 [Notification]         MoreAnimals.MoreAnimalsModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'ndlwoodentorchholder_2.1.1.zip' (ndlwoodentorchholder):
+3.1.2026 18:03:15 [Notification]         ndlwoodentorchholder.ndlwoodentorchholderModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'packrat_0.8.1.zip' (packrat):
+3.1.2026 18:03:15 [Notification]         Packrat.PackratModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'pickupbabyanimals_1.1.0.zip' (pickupbabyanimals):
+3.1.2026 18:03:15 [Notification]         PickupBabyAnimals.MoreAnimalsCompatSystem
+3.1.2026 18:03:15 [Notification]         PickupBabyAnimals.PickupBabyAnimalsModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'PickupNotifier_v2.0.5.zip' (pickupnotifier):
+3.1.2026 18:03:15 [Notification]         PickupNotifier.PickupSystem
+3.1.2026 18:03:15 [Notification]     Mod 'PlayerList-2.3.4.zip' (playerlist):
+3.1.2026 18:03:15 [Notification]         playerlist.PlayerList
+3.1.2026 18:03:15 [Notification]     Mod 'realsmoke_1.1.10.zip' (realsmoke):
+3.1.2026 18:03:15 [Notification]         RealSmoke.ModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'rpvoicechat_2.3.31.zip' (rpvoicechat):
+3.1.2026 18:03:15 [Notification]         RPVoiceChat.Systems.PrinterSystem
+3.1.2026 18:03:15 [Notification]         RPVoiceChat.RPVoiceChatServer
+3.1.2026 18:03:15 [Notification]     Mod 'rustboundmagic_3.1.8.zip' (rustboundmagic):
+3.1.2026 18:03:15 [Notification]         rustboundmagic.src.RustboundMagic
+3.1.2026 18:03:15 [Notification]         rustboundmagic.src.system.ModSystemElementalDamageModifiers
+3.1.2026 18:03:15 [Notification]         rustboundmagic.src.system.ModSystemGateways
+3.1.2026 18:03:15 [Notification]         rustboundmagic.src.system.ModSystemRiftsRM
+3.1.2026 18:03:15 [Notification]         rustboundmagic.src.system.ModSystemWearableMagicStats
+3.1.2026 18:03:15 [Notification]         rustboundmagic.src.system.ModSystemWorldMagic
+3.1.2026 18:03:15 [Notification]         rustboundmagic.src.system.NetworkHandlerRM
+3.1.2026 18:03:15 [Notification]     Mod 'SaltAndSands-1.1.6.zip' (saltandsands):
+3.1.2026 18:03:15 [Notification]         Saltandsands.Core
+3.1.2026 18:03:15 [Notification]     Mod 'scaffolding_1.2.5.zip' (scaffolding):
+3.1.2026 18:03:15 [Notification]         Scaffolding.ScaffoldingModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'scarecrow_v1.7.1.zip' (scarecrow):
+3.1.2026 18:03:15 [Notification]         Scarecrow.Core
+3.1.2026 18:03:15 [Notification]     Mod 'SimpleTPA_v1.0.0.zip' (simpletpa):
+3.1.2026 18:03:15 [Notification]         SimpleTPA.TpaSystem
+3.1.2026 18:03:15 [Notification]     Mod 'SimpleWaypoints_v1.0.0.zip' (simplewaypoints):
+3.1.2026 18:03:15 [Notification]         SimpleWaypoints.WaypointModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'SleepVoteSystem_v1.0.0.zip' (sleepvotesystem):
+3.1.2026 18:03:15 [Notification]         SleepVote.SleepVoteSystem
+3.1.2026 18:03:15 [Notification]     Mod 'SmartDump_v1.0.0.zip' (smartdump):
+3.1.2026 18:03:15 [Notification]         SmartDump.SmartDumpSystem
+3.1.2026 18:03:15 [Notification]     Mod 'stablesurface_0.0.2.zip' (stablesurface):
+3.1.2026 18:03:15 [Notification]         StableSurface.StableSurfaceModSystem
+3.1.2026 18:03:15 [Notification]         StableSurface.SystemTemporalStabilityPatch
+3.1.2026 18:03:15 [Notification]     Mod 'terrainslabs_1.0.6.zip' (terrainslabs):
+3.1.2026 18:03:15 [Notification]         TerrainSlabs.Source.Systems.ConfigSystem
+3.1.2026 18:03:15 [Notification]         TerrainSlabs.Source.Systems.MainSystem
+3.1.2026 18:03:15 [Notification]     Mod 'TerraPrety_7.0.9.zip' (terraprety):
+3.1.2026 18:03:15 [Notification]         SmoothCoastlines.SmoothCoastlinesModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'timepassed_1.0.0.zip' (timepassed):
+3.1.2026 18:03:15 [Notification]         TimePassed.TimePassedModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'toolsanimations_1.3.0.zip' (toolsanimations):
+3.1.2026 18:03:15 [Notification]         ToolsAnimations.ToolsAnimationsSystem
+3.1.2026 18:03:15 [Notification]     Mod 'trashmod_1.0.8.zip' (trashmod):
+3.1.2026 18:03:15 [Notification]         trashmod.trashmodModSystem
+3.1.2026 18:03:15 [Notification]         TrashMod.TrashMod
+3.1.2026 18:03:15 [Notification]     Mod 'Vanity-2.4.6.zip' (vanity):
+3.1.2026 18:03:15 [Notification]         Vanity.VanitySystem
+3.1.2026 18:03:15 [Notification]     Mod 'detailedanimals_0.7.0.zip' (detailedanimals):
+3.1.2026 18:03:15 [Notification]         DetailedAnimals.DetailedAnimalsModSystem
+3.1.2026 18:03:15 [Notification]         DetailedAnimals.EntityVariantsModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'draconis_1.1.4.zip' (draconis):
+3.1.2026 18:03:15 [Notification]         Draconis.DraconisModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'equus_1.2.0.zip' (equus):
+3.1.2026 18:03:15 [Notification]         Equus.EquusModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'fueledwearablelights_1.1.0.zip' (fueledwearablelights):
+3.1.2026 18:03:15 [Notification]         FueledWearableLights.FueledWearableLightsSystem
+3.1.2026 18:03:15 [Notification]     Mod 'pegasus_1.0.2.zip' (pegasus):
+3.1.2026 18:03:15 [Notification]         Pegasus.PegasusModSystem
+3.1.2026 18:03:15 [Notification]     Mod 'quiversandsheaths_0.6.3.zip' (quiversandsheaths):
+3.1.2026 18:03:15 [Notification]         QuiversAndSheaths.QuiversAndSheathsSystem
+3.1.2026 18:03:15 [Notification]     Mod 'colorfulcandles(1.2.5).zip' (colorfulcandles):
+3.1.2026 18:03:15 [Notification]         ColorfulCandles.ColorfulCandlesModSystem
+3.1.2026 18:03:15 [Event] 112 traits loaded from 3 files
+3.1.2026 18:03:15 [Event] 27 classes loaded from 3 files
+3.1.2026 18:03:17 [Event] [rustboundmagic] Leyline essence gateways...
+3.1.2026 18:03:19 [Notification] Server map set
+3.1.2026 18:03:19 [Event] Um mundo intacto...
+3.1.2026 18:03:19 [Notification] Entering runphase GameReady
+3.1.2026 18:03:19 [Notification] Entering runphase WorldReady
+3.1.2026 18:03:19 [Event] O centro, se abrindo...
+3.1.2026 18:03:19 [Event] Starting world generators...
+3.1.2026 18:03:24 [Notification] Reloaded 65 tree generators
+3.1.2026 18:03:24 [Event] Loading 7x7x12 spawn chunks...
+3.1.2026 18:03:24 [Event] 0% (49 in queue)
+3.1.2026 18:03:24 [Event] As montanhas esculpidas...
+3.1.2026 18:03:24 [Event] Begin game ticking...
+3.1.2026 18:03:24 [Event] ... ele chama-lhe
+3.1.2026 18:03:24 [Notification] Entering runphase RunGame
+3.1.2026 18:03:24 [Notification] Successfully loaded 538 waypoints
+3.1.2026 18:03:24 [Notification] [LotteryMod] Tabelas carregadas: 195 comidas, 19 moedas.
+3.1.2026 18:03:24 [Notification] Starting server threads
+3.1.2026 18:03:24 [Event] Servidor dedicado now running on Port 42420 and all ips!
+3.1.2026 18:03:24 [Event] Volte novamente.
+3.1.2026 18:03:24 [Notification] All clients disconnected, pausing game calendar.
+3.1.2026 18:03:35 [Warning] Server overloaded. A tick took 1453ms to complete.
+3.1.2026 18:04:05 [Notification] A Client attempts connecting via TCP on [::ffff:127.171.220.14]:54080, assigning client id 1
+3.1.2026 18:04:05 [Notification] UDP: Client 1 connected via: [::ffff:127.171.220.14]:3468
+3.1.2026 18:04:05 [Notification] Client 1 uid VICCSID attempting identification. Name: VICCS
+3.1.2026 18:04:05 [Notification] Delayed join, need to load one spawn chunk first.
+3.1.2026 18:04:05 [Notification] Sending server identification with remap False.  Server control privilege is True
+3.1.2026 18:04:05 [Notification] Placing VICCS at 513021,9761352539 166,12506103515625 512166,6548461914
+3.1.2026 18:04:23 [Warning] Server overloaded. A tick took 506ms to complete.
+3.1.2026 18:04:40 [Event] VICCS [::ffff:127.171.220.14]:54080 joins.
+3.1.2026 18:04:40 [Error] Mod exception during event OnPlayerNowPlaying. Will skip to next event
+3.1.2026 18:04:40 [Error] Exception: Object reference not set to an instance of an object.
+   at blacksmithname.src.blacksmithname.<>c.<StartServerSide>b__8_0(IServerPlayer byPlayer) in C:\Users\koeni\Source\Repos\blacksmithname_7\blacksmithname\blacksmithname\src\blacksmithname.cs:line 56
+   at Vintagestory.Server.ServerEventManager.<>c__DisplayClass126_0.<TriggerPlayerNowPlaying>b__0(PlayerDelegate dele)
+   at Vintagestory.Server.ServerEventManager.Trigger[T](Delegate[] delegates, String eventName, Action`1 onDele, Action onException)
+3.1.2026 18:04:40 [Notification] A client reconnected, resuming game calendar.
+3.1.2026 18:05:58 [Notification] Client 1 disconnected: 
+3.1.2026 18:05:58 [Notification] Last player disconnected, compacting large object heap...
+3.1.2026 18:05:59 [Notification] UDP: client disconnected VICCS
+3.1.2026 18:05:59 [Event] VICCS saiu do jogo.
+3.1.2026 18:05:59 [Warning] Server overloaded. A tick took 917ms to complete.
+3.1.2026 18:05:59 [Notification] All clients disconnected, pausing game calendar.
+3.1.2026 18:05:59 [Event] Client 1 disconnected.
+3.1.2026 18:06:01 [Warning] Server overloaded. A tick took 739ms to complete.
+3.1.2026 18:06:04 [Warning] Server overloaded. A tick took 782ms to complete.
+3.1.2026 18:06:10 [Warning] Server overloaded. A tick took 750ms to complete.
+3.1.2026 18:06:14 [Warning] Server overloaded. A tick took 784ms to complete.
+3.1.2026 18:06:17 [Notification] Handling Console Command /stop 
+3.1.2026 18:06:17 [Notification] Message to all in group 0: Console Admin iniciou uma suspensão do servidor
+3.1.2026 18:06:17 [Event] Console Admin shuts down server.
+3.1.2026 18:06:17 [Notification] Server stop requested, begin shutdown sequence. Stop reason: Shutdown via server command
+3.1.2026 18:06:17 [Notification] Server ticking has been suspended
+3.1.2026 18:06:17 [Notification] Entering runphase Shutdown
+3.1.2026 18:06:18 [Event] [rustboundmagic] Gateway network saved!
+3.1.2026 18:06:18 [Event] Mods and systems notified, now saving everything...
+3.1.2026 18:06:18 [Event] Uma pausa acontece.
+3.1.2026 18:06:18 [Event] Um último contemplar...
+3.1.2026 18:06:18 [Event] Saved player world data...
+3.1.2026 18:06:18 [Event] Saved map regions...
+3.1.2026 18:06:18 [Event] Então tudo se silencia...
+3.1.2026 18:06:18 [Event] Saved map chunks...
+3.1.2026 18:06:18 [Event] A água recua...
+3.1.2026 18:06:18 [Event] Saved loaded chunks...
+3.1.2026 18:06:18 [Event] As montanhas desaparecem...
+3.1.2026 18:06:18 [Event] A escuridão se estabelece.
+3.1.2026 18:06:18 [Event] Saved generating chunks...
+3.1.2026 18:06:18 [Event] Saved savegamedata...2
+3.1.2026 18:06:18 [Event] World saved! Saved 0 chunks, 1 mapchunks, 24 mapregions.
+3.1.2026 18:06:18 [Event] Ela suspira...
+3.1.2026 18:06:18 [Event] Shutting down 10 server threads... 
+3.1.2026 18:06:18 [Event] Killed console thread
+3.1.2026 18:06:18 [Event] Sozinho novamente...
+3.1.2026 18:06:19 [Event] All threads gracefully shut down
+3.1.2026 18:06:19 [Event] Hora de descansar.
+3.1.2026 18:06:19 [Event] Doing last tick...
+3.1.2026 18:06:19 [Event] Stopped the server!
+3.1.2026 18:06:19 [Notification] Shut down command executed

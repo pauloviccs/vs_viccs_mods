@@ -1,0 +1,11 @@
+﻿  Determinando os projetos a serem restaurados...
+  Todos os projetos est├úo atualizados para restaura├º├úo.
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(578,102): error CS1061: ÔÇÿElementBoundsÔÇÖ n├úo cont├®m uma defini├º├úo para "WithFixedAlignment" e n├úo foi poss├¡vel encontrar nenhum m├®todo de extens├úo "WithFixedAlignment" que aceite um primeiro argumento do tipo ÔÇÿElementBoundsÔÇÖ (voc├¬ est├í se esquecendo de usar uma diretiva ou uma refer├¬ncia de assembly?) [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+
+FALHA da compila├º├úo.
+
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(578,102): error CS1061: ÔÇÿElementBoundsÔÇÖ n├úo cont├®m uma defini├º├úo para "WithFixedAlignment" e n├úo foi poss├¡vel encontrar nenhum m├®todo de extens├úo "WithFixedAlignment" que aceite um primeiro argumento do tipo ÔÇÿElementBoundsÔÇÖ (voc├¬ est├í se esquecendo de usar uma diretiva ou uma refer├¬ncia de assembly?) [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+    0 Aviso(s)
+    1 Erro(s)
+
+Tempo Decorrido 00:00:00.77

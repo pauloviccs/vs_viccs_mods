@@ -1,0 +1,11 @@
+  Determinando os projetos a serem restaurados...
+  Todos os projetos est??o atualizados para restaura????o.
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(585,30): error CS0115: "TerritoryHud.ComposeGuis(GuiComposer)": n??o encontrado nenhum m??todo adequado para substitui????o [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+
+FALHA da compila????o.
+
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(585,30): error CS0115: "TerritoryHud.ComposeGuis(GuiComposer)": n??o encontrado nenhum m??todo adequado para substitui????o [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+    0 Aviso(s)
+    1 Erro(s)
+
+Tempo Decorrido 00:00:00.68

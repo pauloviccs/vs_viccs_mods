@@ -1,0 +1,19 @@
+  Determinando os projetos a serem restaurados...
+  Todos os projetos est??o atualizados para restaura????o.
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(611,75): error CS0103: O nome "Cairo" n??o existe no contexto atual [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(611,37): error CS0012: O tipo "FontWeight" est?? definido em um assembly que n??o ?? referenciado. Voc?? deve adicionar uma refer??ncia ao assembly "cairo-sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null". [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(637,67): error CS0103: O nome "Cairo" n??o existe no contexto atual [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(637,29): error CS0012: O tipo "FontWeight" est?? definido em um assembly que n??o ?? referenciado. Voc?? deve adicionar uma refer??ncia ao assembly "cairo-sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null". [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(574,24): warning CS0414: O campo "TerritoryHud.currentOwner" ?? atribu??do, mas seu valor nunca ?? usado [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+
+FALHA da compila????o.
+
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(574,24): warning CS0414: O campo "TerritoryHud.currentOwner" ?? atribu??do, mas seu valor nunca ?? usado [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(611,75): error CS0103: O nome "Cairo" n??o existe no contexto atual [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(611,37): error CS0012: O tipo "FontWeight" est?? definido em um assembly que n??o ?? referenciado. Voc?? deve adicionar uma refer??ncia ao assembly "cairo-sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null". [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(637,67): error CS0103: O nome "Cairo" n??o existe no contexto atual [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\src\LandBaronSystem.cs(637,29): error CS0012: O tipo "FontWeight" est?? definido em um assembly que n??o ?? referenciado. Voc?? deve adicionar uma refer??ncia ao assembly "cairo-sharp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null". [G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\LandBaron.csproj]
+    1 Aviso(s)
+    4 Erro(s)
+
+Tempo Decorrido 00:00:00.84
