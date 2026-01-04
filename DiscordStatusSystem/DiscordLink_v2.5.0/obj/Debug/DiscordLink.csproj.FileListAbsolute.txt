@@ -1,0 +1,13 @@
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\DiscordStatusSystem\DiscordLink_v2.5.0\bin\Release\modinfo.json
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\DiscordStatusSystem\DiscordLink_v2.5.0\bin\Release\DiscordLink.deps.json
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\DiscordStatusSystem\DiscordLink_v2.5.0\bin\Release\DiscordLink.dll
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\DiscordStatusSystem\DiscordLink_v2.5.0\bin\Release\DiscordLink.pdb
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\DiscordStatusSystem\DiscordLink_v2.5.0\obj\Debug\DiscordLink.csproj.AssemblyReference.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\DiscordStatusSystem\DiscordLink_v2.5.0\obj\Debug\DiscordLink.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\DiscordStatusSystem\DiscordLink_v2.5.0\obj\Debug\DiscordLink.AssemblyInfoInputs.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\DiscordStatusSystem\DiscordLink_v2.5.0\obj\Debug\DiscordLink.AssemblyInfo.cs
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\DiscordStatusSystem\DiscordLink_v2.5.0\obj\Debug\DiscordLink.csproj.CoreCompileInputs.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\DiscordStatusSystem\DiscordLink_v2.5.0\obj\Debug\DiscordLink.dll
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\DiscordStatusSystem\DiscordLink_v2.5.0\obj\Debug\refint\DiscordLink.dll
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\DiscordStatusSystem\DiscordLink_v2.5.0\obj\Debug\DiscordLink.pdb
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\DiscordStatusSystem\DiscordLink_v2.5.0\obj\Debug\ref\DiscordLink.dll
