@@ -51,6 +51,13 @@ namespace LandBaron
         [ProtoMember(1)] public bool Show;
     }
 
+    [ProtoContract]
+    public class ToggleChunkWireframePacket
+    {
+        [ProtoMember(1)] public bool Enabled;
+        [ProtoMember(2)] public bool Toggle; // Se true, inverte o estado atual
+    }
+
     public class LandBaronSystem : ModSystem
     {
         // APIs
@@ -71,13 +78,15 @@ namespace LandBaron
         private long borderTimer = 0;
         
         private TerritoryHud hud;
+        private ChunkWireframeRenderer wireframeRenderer;
 
         public override void Start(ICoreAPI api)
         {
             api.Network.RegisterChannel("landbaron")
                 .RegisterMessageType<SyncClaimsPacket>()
                 .RegisterMessageType<PlaySoundPacket>()
-                .RegisterMessageType<HighlightChunkPacket>();
+                .RegisterMessageType<HighlightChunkPacket>()
+                .RegisterMessageType<ToggleChunkWireframePacket>();
         }
 
         // =========================================================================================
@@ -266,6 +275,25 @@ namespace LandBaron
                  }
                  return TextCommandResult.Error("Este terreno não tem dono.");
              }).EndSubCommand();
+
+             // NOVO: CHUNK WIREFRAME
+             t.BeginSubCommand("chunk").WithArgs(parsers.OptionalWord("state")).HandleWith(args => {
+                 var player = args.Caller.Player as IServerPlayer;
+                 string state = (string)args.Parsers[0].GetValue();
+                 
+                 bool toggle = string.IsNullOrEmpty(state);
+                 bool enabled = false;
+
+                 if (!toggle)
+                 {
+                     if (state.ToLower() == "on") enabled = true;
+                     else if (state.ToLower() == "off") enabled = false;
+                     else return TextCommandResult.Error("Use 'on' ou 'off'.");
+                 }
+
+                 serverChannel.SendPacket(new ToggleChunkWireframePacket() { Toggle = toggle, Enabled = enabled }, player);
+                 return TextCommandResult.Success();
+             }).EndSubCommand();
         }
 
         private TextCommandResult CmdComprar(TextCommandCallingArgs args)
@@ -445,11 +473,17 @@ namespace LandBaron
                     showBorders = p.Show;
                     // ATUALIZAÇÃO: 60 SEGUNDOS
                     borderTimer = api.ElapsedMilliseconds + 60000;
-                });
+                })
+                .SetMessageHandler<ToggleChunkWireframePacket>(OnPacketWireframe);
 
             api.Event.RegisterGameTickListener(ClientTick, 200); 
             
             hud = new TerritoryHud(api);
+            wireframeRenderer = new ChunkWireframeRenderer(api);
+
+            // Registro de Hotkey (F9) para alternar Chunk Wireframe
+            api.Input.RegisterHotKey("landbaronchunk", "Toggle Chunk Wireframe", GlKeys.F9, HotkeyType.CharacterControls);
+            api.Input.SetHotKeyHandler("landbaronchunk", OnHotkeyChunk);
         }
 
         // Thread lock 
@@ -470,6 +504,26 @@ namespace LandBaron
         private void OnPacketSound(PlaySoundPacket packet)
         {
             capi.World.PlaySoundAt(new AssetLocation(packet.SoundName), capi.World.Player.Entity, null, true, 32, 1f);
+        }
+
+        private void OnPacketWireframe(ToggleChunkWireframePacket packet)
+        {
+            if (wireframeRenderer == null) return;
+            
+            if (packet.Toggle) wireframeRenderer.Enabled = !wireframeRenderer.Enabled;
+            else wireframeRenderer.Enabled = packet.Enabled;
+
+            capi.ShowChatMessage(wireframeRenderer.Enabled ? "Chunk Wireframe: ON" : "Chunk Wireframe: OFF");
+        }
+
+        private bool OnHotkeyChunk(KeyCombination comb)
+        {
+            if (wireframeRenderer != null)
+            {
+                wireframeRenderer.Enabled = !wireframeRenderer.Enabled;
+                capi.ShowChatMessage(wireframeRenderer.Enabled ? "Chunk Wireframe: ON" : "Chunk Wireframe: OFF");
+            }
+            return true;
         }
 
         private void ClientTick(float dt)

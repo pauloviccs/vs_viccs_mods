@@ -1,0 +1,13 @@
+g:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\obj\Debug\LandBaron.csproj.AssemblyReference.cache
+g:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\obj\Debug\LandBaron.GeneratedMSBuildEditorConfig.editorconfig
+g:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\obj\Debug\LandBaron.AssemblyInfoInputs.cache
+g:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\obj\Debug\LandBaron.AssemblyInfo.cs
+g:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\obj\Debug\LandBaron.csproj.CoreCompileInputs.cache
+g:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\bin\Release\modinfo.json
+g:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\bin\Release\LandBaron.deps.json
+g:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\bin\Release\LandBaron.dll
+g:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\bin\Release\LandBaron.pdb
+g:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\obj\Debug\LandBaron.dll
+g:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\obj\Debug\refint\LandBaron.dll
+g:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\obj\Debug\LandBaron.pdb
+g:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\LandBaron\LandBaron_v2.5.0\obj\Debug\ref\LandBaron.dll
