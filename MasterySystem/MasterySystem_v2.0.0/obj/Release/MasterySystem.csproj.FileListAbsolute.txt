@@ -1,0 +1,13 @@
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\MasterySystem\obj\Release\MasterySystem.csproj.AssemblyReference.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\MasterySystem\obj\Release\MasterySystem.GeneratedMSBuildEditorConfig.editorconfig
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\MasterySystem\obj\Release\MasterySystem.AssemblyInfoInputs.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\MasterySystem\obj\Release\MasterySystem.AssemblyInfo.cs
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\MasterySystem\obj\Release\MasterySystem.csproj.CoreCompileInputs.cache
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\MasterySystem\bin\Release\modinfo.json
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\MasterySystem\bin\Release\MasterySystem.deps.json
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\MasterySystem\bin\Release\MasterySystem.dll
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\MasterySystem\bin\Release\MasterySystem.pdb
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\MasterySystem\obj\Release\MasterySystem.dll
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\MasterySystem\obj\Release\refint\MasterySystem.dll
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\MasterySystem\obj\Release\MasterySystem.pdb
+G:\GitHub\Vibecoding\VintageStoryMODS\0. Mod Creation\MasterySystem\obj\Release\ref\MasterySystem.dll

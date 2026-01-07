@@ -1,0 +1,13 @@
+{
+  "type": "code",
+  "modid": "masterytitles",
+  "name": "Mastery RPG System",
+  "authors": [
+    "VICCS"
+  ],
+  "description": "Sistema de profissoes (Minerador, Lenhador, Agricultor, Guerreiro) com titulos e buffs evolutivos.",
+  "version": "2.0.0",
+  "dependencies": {
+    "game": "*"
+  }
+}

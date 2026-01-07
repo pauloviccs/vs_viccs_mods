@@ -1,0 +1,44 @@
+Game Version: v1.21.5 (Stable)
+07/01/2026 11:56:29: Critical error occurred in the following mod: masterytitles@2.0.0
+Loaded Mods: walkingstick@1.0.5, bettertranslations@0.0.34, woodlogstack64@1.2.0, bola@1.4.0, buzzwords@1.8.0, catchledge@0.6.0, chargedjump@1.2.2, vichnybackpack@2.5.3, floralzonescaribbeanregion@1.0.23, floralzonescosmopolitanregion@1.0.11, goodhunting@1.3.0, lanternprojection@0.0.1, monsternuggetdrops@1.4.0, overhaullib@1.15.8, playermodellib@1.7.0, shelfobsessed@1.9.1, temporalsymphony@2.2.2, trashbinned@0.3.0, game@1.21.5, vsimgui@1.1.16, waysearchpoint@1.0.3, aculinaryartillery@2.0.0-dev.10, attributerenderinglibrary@2.4.0, egocaribautomapmarkers@4.0.3, betterruins@0.5.4, blacksmithname@1.2.4, bloodtrail@1.1.8, chiselwiz@4.0.2, climbmountain@0.2.1, colorfulcandles@1.2.5, configlib@1.10.11, destariacharselsystem@1.1.2, enhancedhandbook@1.7.1, extrainfo@1.10.1, fantasycreaturesupdate@0.7.9, firewoodtosticks@1.0.0, floatingcombattext@1.0.0, footprints@1.1.1, genelib@2.1.5, geologymap@1.0.1, goblinears@2.3.3, gravemod@2.0.0, hygge@1.0.0, itempickuphighlighter@1.2.2, jaunt@2.1.1, knapster@3.0.2, landbaron@2.5.1, lazymagnet@1.0.0, localrespawn@2.0.0, masterytitles@2.0.0, materialneeds@1.1.5, moreanimals@1.6.6, ndlwoodentorchholder@2.1.1, optimetime@1.3.5, packrat@0.8.1, pickupbabyanimals@1.1.0, pickupnotifier@2.5.0, playerlist@2.3.4, primitivebackpacks@1.0.5, realsmoke@1.1.10, resinrelief@1.0.1, rpvoicechat@2.3.31, rustboundmagic@3.1.8, saltandsands@1.1.6, scaffolding@1.2.5, scarecrow@1.7.1, simpletpa@1.0.0, simplewaypoints@0.0.1, sleepvotesystem@1.0.0, stablesurface@0.0.2, statushudcont@4.0.2, stepupcontinued@0.0.1, terrainslabs@1.0.6, terraprety@7.0.9, timepassed@1.0.0, todolist@2.2.4, toolsanimations@1.3.0, trashmod@1.0.8, universalhusbandry@1.1.1, vanity@2.4.6, visiblebags@1.0.1, creative@1.21.5, survival@1.21.5, detailedanimals@0.7.0, draconis@1.1.4, equus@1.2.0, em@3.4.1, fueledwearablelights@1.1.0, pegasus@1.0.2, quiversandsheaths@0.6.3, aldiclasses@1.7.4, bricklayers@3.1.4, tailorsdelight@2.1.2, aldiclassesallpatch@1.0.2, aldiclasseslanguagespatch@1.0.0, aldiclassesvanillapatch@1.0.0, dressmakers@1.7.4
+ProtoBuf.ProtoException: Could not load file or assembly 'protobuf-net.Core, Version=3.0.0.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67'. O sistema não pode encontrar o arquivo especificado. (MasteryTitles.AbilityPacket)
+ ---> System.IO.FileNotFoundException: Could not load file or assembly 'protobuf-net.Core, Version=3.0.0.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67'. O sistema não pode encontrar o arquivo especificado.
+File name: 'protobuf-net.Core, Version=3.0.0.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67'
+   at System.ModuleHandle.ResolveType(QCallModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   at System.ModuleHandle.ResolveTypeHandle(Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctorWithParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at ProtoBuf.Meta.RuntimeTypeModel.TryGetBasicTypeSerializer(Type type) in C:\Code\Protobuf-net\src\protobuf-net\Meta\RuntimeTypeModel.cs:line 510
+   at ProtoBuf.Meta.RuntimeTypeModel.FindOrAddAuto(Type type, Boolean demand, Boolean addWithContractOnly, Boolean addEvenIfAutoDisabled) in C:\Code\Protobuf-net\src\protobuf-net\Meta\RuntimeTypeModel.cs:line 539
+   at ProtoBuf.Meta.RuntimeTypeModel.GetKey(Type type, Boolean demand, Boolean getBaseKey) in C:\Code\Protobuf-net\src\protobuf-net\Meta\RuntimeTypeModel.cs:line 771
+   --- End of inner exception stack trace ---
+   at ProtoBuf.Meta.RuntimeTypeModel.GetKey(Type type, Boolean demand, Boolean getBaseKey) in C:\Code\Protobuf-net\src\protobuf-net\Meta\RuntimeTypeModel.cs:line 790
+   at ProtoBuf.Meta.TypeModel.GetKey(Type& type) in C:\Code\Protobuf-net\src\protobuf-net\Meta\TypeModel.cs:line 1287
+   at ProtoBuf.Meta.TypeModel.Serialize(Stream dest, Object value, SerializationContext context) in C:\Code\Protobuf-net\src\protobuf-net\Meta\TypeModel.cs:line 221
+   at Vintagestory.Client.NoObf.NetworkChannel.SendPacket[T](T message)
+   at MasteryTitles.AbilitySystem.OnAbilityKeyPressed(KeyCombination key)
+   at Vintagestory.Client.HotkeyManager.TriggerHotKey(KeyEvent keyEventargs, IWorldAccessor world, IPlayer player, Boolean allowCharacterControls, Boolean isGlobal, Boolean fallBack, Boolean keyup)
+   at Vintagestory.Client.NoObf.ClientMain.OnKeyDown(KeyEvent args)
+   at Vintagestory.Client.NoObf.ClientPlatformWindows.game_KeyDown(KeyboardKeyEventArgs e)
+   at OpenTK.Windowing.Desktop.NativeWindow.KeyCallback(Window* window, Keys key, Int32 scancode, InputAction action, KeyModifiers mods)
+--- End of stack trace from previous location ---
+   at OpenTK.Windowing.Desktop.NativeWindow.RethrowCallbackExceptionsIfNeeded()
+   at OpenTK.Windowing.Desktop.GameWindow.Run()
+   at Vintagestory.Client.ClientProgram.Start(ClientProgramArgs args, String[] rawArgs)
+   at Vintagestory.Client.ClientProgram.<>c__DisplayClass10_0.<.ctor>b__1()
+   at Vintagestory.ClientNative.CrashReporter.Start(ThreadStart start)
+System.IO.FileNotFoundException: Could not load file or assembly 'protobuf-net.Core, Version=3.0.0.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67'. O sistema não pode encontrar o arquivo especificado.
+File name: 'protobuf-net.Core, Version=3.0.0.0, Culture=neutral, PublicKeyToken=257b51d87d2e4d67'
+   at System.ModuleHandle.ResolveType(QCallModule module, Int32 typeToken, IntPtr* typeInstArgs, Int32 typeInstCount, IntPtr* methodInstArgs, Int32 methodInstCount, ObjectHandleOnStack type)
+   at System.ModuleHandle.ResolveTypeHandle(Int32 typeToken, RuntimeTypeHandle[] typeInstantiationContext, RuntimeTypeHandle[] methodInstantiationContext)
+   at System.Reflection.RuntimeModule.ResolveType(Int32 metadataToken, Type[] genericTypeArguments, Type[] genericMethodArguments)
+   at System.Reflection.CustomAttribute.FilterCustomAttributeRecord(MetadataToken caCtorToken, MetadataImport& scope, RuntimeModule decoratedModule, MetadataToken decoratedToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1& derivedAttributes, RuntimeType& attributeType, IRuntimeMethodInfo& ctorWithParameters, Boolean& isVarArg)
+   at System.Reflection.CustomAttribute.AddCustomAttributes(ListBuilder`1& attributes, RuntimeModule decoratedModule, Int32 decoratedMetadataToken, RuntimeType attributeFilterType, Boolean mustBeInheritable, ListBuilder`1 derivedAttributes)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeModule decoratedModule, Int32 decoratedMetadataToken, Int32 pcaCount, RuntimeType attributeFilterType)
+   at System.Reflection.CustomAttribute.GetCustomAttributes(RuntimeType type, RuntimeType caType, Boolean inherit)
+   at ProtoBuf.Meta.RuntimeTypeModel.TryGetBasicTypeSerializer(Type type) in C:\Code\Protobuf-net\src\protobuf-net\Meta\RuntimeTypeModel.cs:line 510
+   at ProtoBuf.Meta.RuntimeTypeModel.FindOrAddAuto(Type type, Boolean demand, Boolean addWithContractOnly, Boolean addEvenIfAutoDisabled) in C:\Code\Protobuf-net\src\protobuf-net\Meta\RuntimeTypeModel.cs:line 539
+   at ProtoBuf.Meta.RuntimeTypeModel.GetKey(Type type, Boolean demand, Boolean getBaseKey) in C:\Code\Protobuf-net\src\protobuf-net\Meta\RuntimeTypeModel.cs:line 771
